@@ -1,0 +1,8 @@
+[04-06-22 19:41:35.539][info] Start chat server initialization....
+[04-06-22 19:41:35.554][info] General chat has id = 0.
+[04-06-22 19:41:35.554][info] Say chat has id = 1.
+[04-06-22 19:41:35.554][info] Shout chat has id = 2.
+[04-06-22 19:41:35.554][info] Radio chat has id = 3.
+[04-06-22 19:41:35.554][info] Admin chat has id = 4.
+[04-06-22 19:41:35.555][info] Server chat has id = 5.
+[04-06-22 19:41:35.555][info] Chat server successfully initialized.

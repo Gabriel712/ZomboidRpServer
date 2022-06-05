@@ -1,0 +1,817 @@
+[04-06-22 19:39:52.028] LOG  : General     , 1654396792028> 1,266,937> cachedir set to "C:\Users\Administrator\Zomboid".
+[04-06-22 19:39:52.169] LOG  : General     , 1654396792169> 1,267,072> versionNumber=41.71 demo=false.
+[04-06-22 19:39:52.169] LOG  : General     , 1654396792169> 1,267,073> svnRevision= date= time=.
+[04-06-22 19:39:52.419] LOG  : General     , 1654396792419> 1,267,321> unknown option "0".
+[04-06-22 19:39:52.419] LOG  : General     , 1654396792419> 1,267,322> server name is "servertest".
+[04-06-22 19:39:52.419] LOG  : General     , 1654396792419> 1,267,324> map_t.bin does not exist, cannot determine the server's WorldVersion.  This is ok the first time a server is started..
+[04-06-22 19:39:52.419] LOG  : General     , 1654396792419> 1,267,329> Loading networking libraries....
+[04-06-22 19:39:52.435] LOG  : General     , 1654396792435> 1,267,331> Loading steam_api64....
+[04-06-22 19:39:52.435] LOG  : General     , 1654396792435> 1,267,339> Loading RakNet64....
+[04-06-22 19:39:52.450] LOG  : General     , 1654396792450> 1,267,352> Loading ZNetJNI64....
+[04-06-22 19:39:52.591] LOG  : General     , 1654396792591> 1,267,493> 1654396792591 znet: ZNet loaded.
+[04-06-22 19:39:52.591] LOG  : General     , 1654396792591> 1,267,498> 1654396792591 znet: Compiled with SERVER_STEAMAPI == 0.
+[04-06-22 19:39:52.591] LOG  : General     , 1654396792591> 1,267,498> 1654396792591 znet: Starting with bServer == true.
+[04-06-22 19:39:52.591] LOG  : General     , 1654396792591> 1,267,499> 1654396792591 znet: SteamAPI initialised successfully.
+[04-06-22 19:39:52.591] LOG  : General     , 1654396792591> 1,267,499> SteamUtils initialised successfully.
+[04-06-22 19:39:55.935] LOG  : General     , 1654396795935> 1,270,830> translator: language is EN.
+[04-06-22 19:39:56.200] LOG  : General     , 1654396796200> 1,271,096> creating server spawnregions file "C:\Users\Administrator\Zomboid\Server\servertest_spawnregions.lua".
+[04-06-22 19:39:56.200] LOG  : General     , 1654396796200> 1,271,099> writing C:\Users\Administrator\Zomboid\Server\servertest.ini.
+[04-06-22 19:39:56.200] LOG  : General     , 1654396796200> 1,271,110> 1654396796200 znet: Java_zombie_core_znet_SteamGameServer_Init.
+[04-06-22 19:39:56.450] LOG  : General     , 1654396796450> 1,271,355> 1654396796450 znet: SteamGameServer seems to be initialized.
+[04-06-22 19:39:56.450] LOG  : General     , 1654396796450> 1,271,356> 1654396796450 znet: Java_zombie_core_znet_SteamGameServer_SetProduct.
+[04-06-22 19:39:56.450] LOG  : General     , 1654396796450> 1,271,358> 1654396796450 znet: Java_zombie_core_znet_SteamGameServer_SetGameDescription.
+[04-06-22 19:39:56.450] LOG  : General     , 1654396796450> 1,271,359> 1654396796450 znet: Java_zombie_core_znet_SteamGameServer_SetModDir.
+[04-06-22 19:39:56.450] LOG  : General     , 1654396796450> 1,271,360> 1654396796450 znet: Java_zombie_core_znet_SteamGameServer_SetDedicatedServer.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,362> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_SetMaxPlayerCount.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,364> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_SetServerName 'My PZ Server'.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,365> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_SetMapName 'Muldraugh, KY'.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,366> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_SetGameTags 'hidden'.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,366> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_SetKeyValue key='description' value=''.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,367> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_SetKeyValue key='version' value='41.71'.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,367> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_SetKeyValue key='open' value='1'.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,368> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_SetKeyValue key='public' value='0'.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,369> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_SetKeyValue key='mods' value=''.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,370> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_SetKeyValue key='modCount' value='0'.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,370> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_SetKeyValue key='pvp' value='1'.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,374> 1654396796466 znet: Java_zombie_core_znet_SteamWorkshop_n_1Init.
+[04-06-22 19:39:56.466] LOG  : General     , 1654396796466> 1,271,375> 1654396796466 znet: Java_zombie_core_znet_SteamGameServer_LogOnAnonymous.
+[04-06-22 19:39:56.482] LOG  : General     , 1654396796482> 1,271,377> 1654396796482 znet: Java_zombie_core_znet_SteamGameServer_EnableHeartBeats.
+[04-06-22 19:39:56.482] LOG  : General     , 1654396796482> 1,271,383> Waiting for response from Steam servers.
+[04-06-22 19:39:58.455] LOG  : General     , 1654396798455> 1,273,352> 1654396798455 znet: OnSteamServersConnected.
+[04-06-22 19:39:58.455] LOG  : General     , 1654396798455> 1,273,355> 1654396798455 znet: Public IP: 191.96.225.209.
+[04-06-22 19:39:58.455] LOG  : General     , 1654396798455> 1,273,362> Start making backup to: C:\Users\Administrator\Zomboid\backups\startup.
+[04-06-22 19:39:58.694] LOG  : General     , 1654396798694> 1,273,589> compressionElapsed=148ms, mergingElapsed=59ms.
+[04-06-22 19:39:58.694] LOG  : General     , 1654396798694> 1,273,593> Backup made in 239 ms.
+[04-06-22 19:39:58.694] LOG  : General     , 1654396798694> 1,273,596> Start making backup to: C:\Users\Administrator\Zomboid\backups\version.
+[04-06-22 19:39:58.710] LOG  : General     , 1654396798710> 1,273,608> compressionElapsed=16ms, mergingElapsed=0ms.
+[04-06-22 19:39:58.710] LOG  : General     , 1654396798710> 1,273,612> Backup made in 16 ms.
+[04-06-22 19:39:58.710] LOG  : General     , 1654396798710> 1,273,620> user database "C:\Users\Administrator\Zomboid\db\servertest.db".
+[04-06-22 19:39:58.945] LOG  : General     , 1654396798945> 1,273,848> User 'admin' not found, creating it .
+[04-06-22 19:39:58.945] LOG  : General     , 1654396798945> 1,273,849> Command line admin password: null.
+[04-06-22 19:39:58.945] LOG  : General     , 1654396798945> 1,273,850> Enter new administrator password: .
+[04-06-22 19:40:58.767] LOG  : General     , 1654396858766> 1,333,662> Confirm the password: .
+[04-06-22 19:41:02.433] LOG  : General     , 1654396862433> 1,337,328> Administrator account 'admin' created..
+[04-06-22 19:41:02.434] LOG  : General     , 1654396862434> 1,337,329> Router detection/configuration starting..
+[04-06-22 19:41:02.434] LOG  : General     , 1654396862434> 1,337,329> If the server hangs here, set UPnP=false..
+[04-06-22 19:41:18.122] LOG  : Network     , 1654396878122> 1,353,017> No UPnP-enabled Internet gateway found, you must configure port forwarding on your gateway manually in order to make your server accessible from the Internet..
+[04-06-22 19:41:18.123] LOG  : Network     , 1654396878123> 1,353,018> Initialising Server Systems....
+[04-06-22 19:41:19.968] LOG  : Lua         , 1654396879968> 1,354,863> Loading: media/lua/shared/Sandbox/Apocalypse.lua.
+[04-06-22 19:41:21.865] LOG  : General     , 1654396881865> 1,356,761> scriptChecksum: d80545eb3a13937b2f297e0a427e485b.
+[04-06-22 19:41:21.873] WARN : Recipe      , 1654396881873> 1,356,768> RecipeManager.resolveItemModuleDotType> WARNING: module "Base" may have forgot to import module Base.
+[04-06-22 19:41:21.880] WARN : Script      , 1654396881880> 1,356,775> ModelScript.check> no such model "null" for Base.BareHands.
+[04-06-22 19:41:21.882] WARN : Script      , 1654396881882> 1,356,777> ModelScript.check> no such model "???.DisposableRazor" for Base.Razor.
+[04-06-22 19:41:21.885] WARN : Script      , 1654396881885> 1,356,780> ModelScript.check> no such model "???.Nettles_Ground" for Base.Nettles.
+[04-06-22 19:41:21.888] WARN : Script      , 1654396881888> 1,356,783> ModelScript.check> no such model "Chainsaw" for Base.Chainsaw.
+[04-06-22 19:41:22.860] LOG  : General     , 1654396882860> 1,357,755> LOADING ASSETS: START.
+[04-06-22 19:41:33.627] LOG  : General     , 1654396893627> 1,368,523> LOADING ASSETS: FINISH.
+[04-06-22 19:41:33.721] LOG  : Lua         , 1654396893721> 1,368,616> Loading: media/lua/shared/Definitions/AttachedWeaponDefinitions.lua.
+[04-06-22 19:41:33.731] LOG  : Lua         , 1654396893731> 1,368,626> Loading: media/lua/shared/Definitions/ClothingRecipesDefinitions.lua.
+[04-06-22 19:41:33.736] LOG  : Lua         , 1654396893736> 1,368,631> Loading: media/lua/shared/Definitions/ClothingSelectionDefinitions.lua.
+[04-06-22 19:41:33.739] LOG  : Lua         , 1654396893739> 1,368,635> Loading: media/lua/shared/Definitions/ContainerButtonIcons.lua.
+[04-06-22 19:41:33.762] LOG  : Lua         , 1654396893762> 1,368,657> Loading: media/lua/shared/Definitions/DamageModelDefinitions.lua.
+[04-06-22 19:41:33.772] LOG  : Lua         , 1654396893771> 1,368,666> Loading: media/lua/shared/Definitions/DefaultClothing.lua.
+[04-06-22 19:41:33.773] LOG  : Lua         , 1654396893773> 1,368,668> Loading: media/lua/shared/Definitions/FitnessExercises.lua.
+[04-06-22 19:41:33.776] LOG  : Lua         , 1654396893775> 1,368,670> Loading: media/lua/shared/Definitions/HairOutfitDefinitions.lua.
+[04-06-22 19:41:33.777] LOG  : Lua         , 1654396893777> 1,368,673> Loading: media/lua/shared/Definitions/MakeUpDefinitions.lua.
+[04-06-22 19:41:33.781] LOG  : Lua         , 1654396893781> 1,368,676> Loading: media/lua/shared/Definitions/MapSymbolDefinitions.lua.
+[04-06-22 19:41:33.788] LOG  : Lua         , 1654396893788> 1,368,683> Loading: media/lua/shared/Definitions/SmashedCarDefinitions.lua.
+[04-06-22 19:41:33.790] LOG  : Lua         , 1654396893790> 1,368,686> Loading: media/lua/shared/Definitions/UnderwearDefinition.lua.
+[04-06-22 19:41:33.797] LOG  : Lua         , 1654396893796> 1,368,692> Loading: media/lua/shared/Fishing/fishing_properties.lua.
+[04-06-22 19:41:33.810] LOG  : Lua         , 1654396893809> 1,368,704> Loading: media/lua/shared/Foraging/forageDefinitions.lua.
+[04-06-22 19:41:33.843] LOG  : Lua         , 1654396893843> 1,368,738> Loading: media/lua/shared/Foraging/forageSystem.lua.
+[04-06-22 19:41:33.858] LOG  : Lua         , 1654396893858> 1,368,753> Loading: media/lua/shared/ISBaseObject.lua.
+[04-06-22 19:41:33.861] LOG  : Lua         , 1654396893861> 1,368,755> Loading: media/lua/shared/JoyPad/JoyPadSetup.lua.
+[04-06-22 19:41:33.873] LOG  : Lua         , 1654396893873> 1,368,768> Loading: media/lua/shared/Logs/ISLogSystem.lua.
+[04-06-22 19:41:33.875] LOG  : Lua         , 1654396893875> 1,368,771> Loading: media/lua/shared/Logs/ISPerkLog.lua.
+[04-06-22 19:41:33.878] LOG  : Lua         , 1654396893878> 1,368,773> Loading: media/lua/shared/NPCs/AttachedLocations.lua.
+[04-06-22 19:41:33.884] LOG  : Lua         , 1654396893884> 1,368,779> Loading: media/lua/shared/NPCs/BodyLocations.lua.
+[04-06-22 19:41:33.902] LOG  : Lua         , 1654396893902> 1,368,796> Loading: media/lua/shared/NPCs/MainCreationMethods.lua.
+[04-06-22 19:41:33.926] LOG  : Lua         , 1654396893926> 1,368,821> Loading: media/lua/shared/NPCs/ZombiesZoneDefinition.lua.
+[04-06-22 19:41:33.930] LOG  : Lua         , 1654396893930> 1,368,825> Loading: media/lua/shared/RecordedMedia/ISRecordeMedia.lua.
+[04-06-22 19:41:33.932] LOG  : Lua         , 1654396893932> 1,368,827> Loading: media/lua/shared/RecordedMedia/recorded_media.lua.
+[04-06-22 19:41:33.998] LOG  : Lua         , 1654396893998> 1,368,894> Loading: media/lua/shared/Reloading/ISRackAction.lua.
+[04-06-22 19:41:34.000] LOG  : Lua         , 1654396894000> 1,368,896> Loading: media/lua/shared/TimedActions/ISBaseTimedAction.lua.
+[04-06-22 19:41:34.008] LOG  : Lua         , 1654396894007> 1,368,903> Loading: media/lua/shared/Reloading/ISReloadAction.lua.
+[04-06-22 19:41:34.013] LOG  : Lua         , 1654396894013> 1,368,908> Loading: media/lua/shared/Reloading/ISReloadManager.lua.
+[04-06-22 19:41:34.019] LOG  : Lua         , 1654396894018> 1,368,913> Loading: media/lua/shared/Reloading/ISReloadUtil.lua.
+[04-06-22 19:41:34.024] LOG  : Lua         , 1654396894024> 1,368,918> Loading: media/lua/shared/Reloading/ISReloadableMagazine.lua.
+[04-06-22 19:41:34.026] LOG  : Lua         , 1654396894026> 1,368,920> Loading: media/lua/shared/Reloading/ISReloadable.lua.
+[04-06-22 19:41:34.034] LOG  : Lua         , 1654396894034> 1,368,929> Loading: media/lua/shared/Reloading/ISSemiAutoWeapon.lua.
+[04-06-22 19:41:34.038] LOG  : Lua         , 1654396894038> 1,368,934> Loading: media/lua/shared/Reloading/ISReloadableWeapon.lua.
+[04-06-22 19:41:34.042] LOG  : Lua         , 1654396894041> 1,368,937> Loading: media/lua/shared/Reloading/ISShotgunWeapon.lua.
+[04-06-22 19:41:34.047] LOG  : Lua         , 1654396894047> 1,368,942> Loading: media/lua/shared/Reloading/ISRevolverWeapon.lua.
+[04-06-22 19:41:34.049] LOG  : Lua         , 1654396894049> 1,368,945> Loading: media/lua/shared/Reloading/stormysReload.lua.
+[04-06-22 19:41:34.055] LOG  : Lua         , 1654396894055> 1,368,950> Loading: media/lua/shared/Sandbox/Beginner.lua.
+[04-06-22 19:41:34.057] LOG  : Lua         , 1654396894057> 1,368,952> Loading: media/lua/shared/Sandbox/Builder.lua.
+[04-06-22 19:41:34.059] LOG  : Lua         , 1654396894059> 1,368,954> Loading: media/lua/shared/Sandbox/FirstWeek.lua.
+[04-06-22 19:41:34.064] LOG  : Lua         , 1654396894064> 1,368,959> Loading: media/lua/shared/Sandbox/SandboxVars.lua.
+[04-06-22 19:41:34.066] LOG  : Lua         , 1654396894065> 1,368,960> Loading: media/lua/shared/Sandbox/Survival.lua.
+[04-06-22 19:41:34.068] LOG  : Lua         , 1654396894068> 1,368,963> Loading: media/lua/shared/Sandbox/SixMonthsLater.lua.
+[04-06-22 19:41:34.070] LOG  : Lua         , 1654396894069> 1,368,965> Loading: media/lua/shared/Sandbox/Survivor.lua.
+[04-06-22 19:41:34.073] LOG  : Lua         , 1654396894073> 1,368,969> Loading: media/lua/shared/SoundBanks/SoundBanks.lua.
+[04-06-22 19:41:34.078] LOG  : Lua         , 1654396894078> 1,368,973> Loading: media/lua/shared/SpawnRegions.lua.
+[04-06-22 19:41:34.081] LOG  : Lua         , 1654396894081> 1,368,976> Loading: media/lua/shared/StashDescriptions/MarchRidgeStashDesc.lua.
+[04-06-22 19:41:34.083] LOG  : Lua         , 1654396894083> 1,368,978> Loading: media/lua/shared/StashDescriptions/StashUtil.lua.
+[04-06-22 19:41:34.086] LOG  : Lua         , 1654396894085> 1,368,981> Loading: media/lua/shared/StashDescriptions/MulStashDesc.lua.
+[04-06-22 19:41:34.088] LOG  : Lua         , 1654396894088> 1,368,983> Loading: media/lua/shared/StashDescriptions/RosewoodStashDesc.lua.
+[04-06-22 19:41:34.090] LOG  : Lua         , 1654396894090> 1,368,986> Loading: media/lua/shared/StashDescriptions/WpStashDesc.lua.
+[04-06-22 19:41:34.094] LOG  : Lua         , 1654396894094> 1,368,989> Loading: media/lua/shared/Util/AdjacentFreeTileFinder.lua.
+[04-06-22 19:41:34.098] LOG  : Lua         , 1654396894097> 1,368,993> Loading: media/lua/shared/Util/BuildingHelper.lua.
+[04-06-22 19:41:34.110] LOG  : Lua         , 1654396894110> 1,369,005> Loading: media/lua/shared/Util/ISPriorityTable.lua.
+[04-06-22 19:41:34.116] LOG  : Lua         , 1654396894116> 1,369,011> Loading: media/lua/shared/Util/LuaList.lua.
+[04-06-22 19:41:34.119] LOG  : Lua         , 1654396894119> 1,369,015> Loading: media/lua/shared/Util/LuaNet.lua.
+[04-06-22 19:41:34.124] LOG  : Lua         , 1654396894123> 1,369,019> Loading: media/lua/shared/Util/StringReplacer.lua.
+[04-06-22 19:41:34.129] LOG  : Lua         , 1654396894128> 1,369,024> Loading: media/lua/shared/Util/Vector2.lua.
+[04-06-22 19:41:34.133] LOG  : Lua         , 1654396894133> 1,369,030> Loading: media/lua/shared/VehicleZoneDefinition.lua.
+[04-06-22 19:41:34.141] LOG  : Lua         , 1654396894141> 1,369,036> Loading: media/lua/shared/a_requires.lua.
+[04-06-22 19:41:34.153] LOG  : Lua         , 1654396894153> 1,369,049> Loading: media/lua/shared/defines.lua.
+[04-06-22 19:41:34.155] LOG  : Lua         , 1654396894155> 1,369,051> Loading: media/lua/shared/iwbumstempmodelcompat.lua.
+[04-06-22 19:41:34.157] LOG  : Lua         , 1654396894156> 1,369,052> Loading: media/lua/shared/keyBinding.lua.
+[04-06-22 19:41:34.159] LOG  : Lua         , 1654396894159> 1,369,054> Loading: media/lua/shared/luautils.lua.
+[04-06-22 19:41:34.760] LOG  : Lua         , 1654396894760> 1,369,655> Loading: media/lua/server/BuildingObjects/ISAnvil.lua.
+[04-06-22 19:41:34.764] LOG  : Lua         , 1654396894763> 1,369,659> Loading: media/lua/server/BuildingObjects/ISBuildingObject.lua.
+[04-06-22 19:41:34.768] LOG  : Lua         , 1654396894768> 1,369,663> Loading: media/lua/server/BuildingObjects/ISBSFurnace.lua.
+[04-06-22 19:41:34.769] LOG  : Lua         , 1654396894769> 1,369,664> Loading: media/lua/server/BuildingObjects/ISBarbedWire.lua.
+[04-06-22 19:41:34.771] LOG  : Lua         , 1654396894771> 1,369,666> Loading: media/lua/server/BuildingObjects/ISBuildCursorMouse.lua.
+[04-06-22 19:41:34.772] LOG  : Lua         , 1654396894772> 1,369,667> Loading: media/lua/server/BuildingObjects/ISBuildUtil.lua.
+[04-06-22 19:41:34.775] LOG  : Lua         , 1654396894775> 1,369,670> Loading: media/lua/server/BuildingObjects/ISChopTreeCursor.lua.
+[04-06-22 19:41:34.776] LOG  : Lua         , 1654396894776> 1,369,671> Loading: media/lua/server/BuildingObjects/ISCleanBloodCursor.lua.
+[04-06-22 19:41:34.777] LOG  : Lua         , 1654396894777> 1,369,672> Loading: media/lua/server/BuildingObjects/ISCompost.lua.
+[04-06-22 19:41:34.777] LOG  : Lua         , 1654396894777> 1,369,673> Loading: media/lua/server/BuildingObjects/ISDestroyCursor.lua.
+[04-06-22 19:41:34.780] LOG  : Lua         , 1654396894780> 1,369,675> Loading: media/lua/server/BuildingObjects/ISDoubleDoor.lua.
+[04-06-22 19:41:34.782] LOG  : Lua         , 1654396894782> 1,369,677> Loading: media/lua/server/BuildingObjects/ISDoubleTileFurniture.lua.
+[04-06-22 19:41:34.783] LOG  : Lua         , 1654396894783> 1,369,679> Loading: media/lua/server/BuildingObjects/ISEmptyGraves.lua.
+[04-06-22 19:41:34.785] LOG  : Lua         , 1654396894785> 1,369,681> Loading: media/lua/server/BuildingObjects/ISLightSource.lua.
+[04-06-22 19:41:34.787] LOG  : Lua         , 1654396894786> 1,369,682> Loading: media/lua/server/BuildingObjects/ISMoveableCursor.lua.
+[04-06-22 19:41:34.793] LOG  : Lua         , 1654396894793> 1,369,688> Loading: media/lua/server/BuildingObjects/ISNaturalFloor.lua.
+[04-06-22 19:41:34.798] LOG  : Lua         , 1654396894798> 1,369,693> Loading: media/lua/server/BuildingObjects/ISPaintCursor.lua.
+[04-06-22 19:41:34.801] LOG  : Lua         , 1654396894801> 1,369,696> Loading: media/lua/server/BuildingObjects/ISPlace3DItemCursor.lua.
+[04-06-22 19:41:34.806] LOG  : Lua         , 1654396894806> 1,369,701> Loading: media/lua/server/BuildingObjects/ISRemovePlantCursor.lua.
+[04-06-22 19:41:34.808] LOG  : Lua         , 1654396894808> 1,369,703> Loading: media/lua/server/BuildingObjects/ISSelectCursor.lua.
+[04-06-22 19:41:34.810] LOG  : Lua         , 1654396894810> 1,369,705> Loading: media/lua/server/BuildingObjects/ISShovelGroundCursor.lua.
+[04-06-22 19:41:34.812] LOG  : Lua         , 1654396894812> 1,369,707> Loading: media/lua/server/BuildingObjects/ISSimpleFurniture.lua.
+[04-06-22 19:41:34.814] LOG  : Lua         , 1654396894814> 1,369,709> Loading: media/lua/server/BuildingObjects/ISWalkToCursor.lua.
+[04-06-22 19:41:34.816] LOG  : Lua         , 1654396894816> 1,369,711> Loading: media/lua/server/BuildingObjects/ISWoodenContainer.lua.
+[04-06-22 19:41:34.818] LOG  : Lua         , 1654396894818> 1,369,713> Loading: media/lua/server/BuildingObjects/ISWoodenDoor.lua.
+[04-06-22 19:41:34.819] LOG  : Lua         , 1654396894819> 1,369,715> Loading: media/lua/server/BuildingObjects/ISWoodenDoorFrame.lua.
+[04-06-22 19:41:34.820] LOG  : Lua         , 1654396894820> 1,369,716> Loading: media/lua/server/BuildingObjects/ISWoodenFloor.lua.
+[04-06-22 19:41:34.829] LOG  : Lua         , 1654396894828> 1,369,723> Loading: media/lua/server/BuildingObjects/ISWoodenStairs.lua.
+[04-06-22 19:41:34.830] LOG  : Lua         , 1654396894830> 1,369,726> Loading: media/lua/server/BuildingObjects/ISWoodenWall.lua.
+[04-06-22 19:41:34.837] LOG  : Lua         , 1654396894836> 1,369,732> Loading: media/lua/server/BuildingObjects/PaintingReference.lua.
+[04-06-22 19:41:34.839] LOG  : Lua         , 1654396894839> 1,369,734> Loading: media/lua/server/Camping/BuildingObjects/campingCampfire.lua.
+[04-06-22 19:41:34.840] LOG  : Lua         , 1654396894840> 1,369,735> Loading: media/lua/server/Camping/BuildingObjects/campingTent.lua.
+[04-06-22 19:41:34.842] LOG  : Lua         , 1654396894842> 1,369,737> Loading: media/lua/server/Camping/SCampfireGlobalObject.lua.
+[04-06-22 19:41:34.845] LOG  : Lua         , 1654396894844> 1,369,740> Loading: media/lua/server/Map/SGlobalObject.lua.
+[04-06-22 19:41:34.846] LOG  : Lua         , 1654396894846> 1,369,741> Loading: media/lua/server/Camping/SCampfireSystem.lua.
+[04-06-22 19:41:34.848] LOG  : Lua         , 1654396894848> 1,369,743> Loading: media/lua/server/Map/SGlobalObjectSystem.lua.
+[04-06-22 19:41:34.860] LOG  : Lua         , 1654396894860> 1,369,755> Loading: media/lua/server/Camping/SCampfireSystemCommands.lua.
+[04-06-22 19:41:34.861] LOG  : Lua         , 1654396894861> 1,369,757> Loading: media/lua/server/Camping/camping_fuel.lua.
+[04-06-22 19:41:34.863] LOG  : Lua         , 1654396894863> 1,369,758> Loading: media/lua/server/Camping/camping_tent.lua.
+[04-06-22 19:41:34.865] LOG  : Lua         , 1654396894865> 1,369,761> Loading: media/lua/server/Camping/camping_text.lua.
+[04-06-22 19:41:34.867] LOG  : Lua         , 1654396894867> 1,369,762> Loading: media/lua/server/ClientCommands.lua.
+[04-06-22 19:41:34.870] LOG  : Lua         , 1654396894870> 1,369,765> Loading: media/lua/server/Climate/ClimateMain.lua.
+[04-06-22 19:41:34.872] LOG  : Lua         , 1654396894872> 1,369,768> Loading: media/lua/server/Farming/BuildingObjects/ISFarmingCursor.lua.
+[04-06-22 19:41:34.874] LOG  : Lua         , 1654396894874> 1,369,770> Loading: media/lua/server/Farming/BuildingObjects/ISFarmingCursorMouse.lua.
+[04-06-22 19:41:34.876] LOG  : Lua         , 1654396894876> 1,369,771> Loading: media/lua/server/Farming/BuildingObjects/farmingPlot.lua.
+[04-06-22 19:41:34.877] LOG  : Lua         , 1654396894877> 1,369,772> Loading: media/lua/server/Farming/SFarmingSystem.lua.
+[04-06-22 19:41:34.883] LOG  : Lua         , 1654396894883> 1,369,778> Loading: media/lua/server/Farming/SPlantGlobalObject.lua.
+[04-06-22 19:41:34.889] LOG  : Lua         , 1654396894889> 1,369,784> Loading: media/lua/server/Farming/ScavengeDefinition.lua.
+[04-06-22 19:41:34.893] LOG  : Lua         , 1654396894893> 1,369,788> Loading: media/lua/server/Farming/farmingCommands.lua.
+[04-06-22 19:41:34.895] LOG  : Lua         , 1654396894895> 1,369,790> Loading: media/lua/server/Farming/farming_vegetableconf.lua.
+[04-06-22 19:41:34.899] LOG  : Lua         , 1654396894899> 1,369,794> Loading: media/lua/server/FireFighting/FireFighting.lua.
+[04-06-22 19:41:34.901] LOG  : Lua         , 1654396894901> 1,369,795> Loading: media/lua/server/FireFighting/ISExtinguishCursor.lua.
+[04-06-22 19:41:34.903] LOG  : Lua         , 1654396894902> 1,369,798> Loading: media/lua/server/Fishing/BuildingObjects/FishingNet.lua.
+[04-06-22 19:41:34.904] LOG  : Lua         , 1654396894904> 1,369,800> Loading: media/lua/server/Foraging/forageServer.lua.
+[04-06-22 19:41:34.906] LOG  : Lua         , 1654396894906> 1,369,801> Loading: media/lua/server/HealthSystem/HealthUpdate.lua.
+[04-06-22 19:41:34.907] LOG  : Lua         , 1654396894907> 1,369,803> Loading: media/lua/server/ISBuildingBlueprintManager.lua.
+[04-06-22 19:41:34.908] LOG  : Lua         , 1654396894908> 1,369,804> Loading: media/lua/server/ISCoordConversion.lua.
+[04-06-22 19:41:34.909] LOG  : Lua         , 1654396894909> 1,369,805> Loading: media/lua/server/ISObjectClickHandler.lua.
+[04-06-22 19:41:34.911] LOG  : Lua         , 1654396894911> 1,369,807> Loading: media/lua/server/Items/AcceptItemFunction.lua.
+[04-06-22 19:41:34.913] LOG  : Lua         , 1654396894913> 1,369,808> Loading: media/lua/server/Items/ApplianceOverlays.lua.
+[04-06-22 19:41:34.921] LOG  : Lua         , 1654396894921> 1,369,816> Loading: media/lua/server/Items/BentFences.lua.
+[04-06-22 19:41:34.925] LOG  : Lua         , 1654396894924> 1,369,820> Loading: media/lua/server/Items/BrokenFences.lua.
+[04-06-22 19:41:34.933] LOG  : Lua         , 1654396894933> 1,369,828> Loading: media/lua/server/Items/CounterOverlays.lua.
+[04-06-22 19:41:34.936] LOG  : Lua         , 1654396894935> 1,369,830> Loading: media/lua/server/Items/Distributions.lua.
+[04-06-22 19:41:34.960] LOG  : Lua         , 1654396894960> 1,369,856> Loading: media/lua/server/Items/FixturesOverlays.lua.
+[04-06-22 19:41:34.962] LOG  : Lua         , 1654396894962> 1,369,858> Loading: media/lua/server/Items/FloorStreetOverlays.lua.
+[04-06-22 19:41:34.965] LOG  : Lua         , 1654396894964> 1,369,860> Loading: media/lua/server/Items/FloorTileOverlays.lua.
+[04-06-22 19:41:34.966] LOG  : Lua         , 1654396894966> 1,369,862> Loading: media/lua/server/Items/FloorWoodOverlays.lua.
+[04-06-22 19:41:34.968] LOG  : Lua         , 1654396894968> 1,369,863> Loading: media/lua/server/Items/FurnitureOfficeOverlays.lua.
+[04-06-22 19:41:34.970] LOG  : Lua         , 1654396894970> 1,369,865> Loading: media/lua/server/Items/ItemBindingHandler.lua.
+[04-06-22 19:41:34.971] LOG  : Lua         , 1654396894971> 1,369,866> Loading: media/lua/server/Items/ItemPicker.lua.
+[04-06-22 19:41:34.973] LOG  : Lua         , 1654396894972> 1,369,868> Loading: media/lua/server/Items/ProceduralDistributions.lua.
+[04-06-22 19:41:35.000] LOG  : Lua         , 1654396895000> 1,369,895> Loading: media/lua/server/Items/ScriptItemInterface.lua.
+[04-06-22 19:41:35.002] LOG  : Lua         , 1654396895001> 1,369,897> Loading: media/lua/server/Items/SeatingOverlays.lua.
+[04-06-22 19:41:35.004] LOG  : Lua         , 1654396895004> 1,369,899> Loading: media/lua/server/Items/StorageOverlays.lua.
+[04-06-22 19:41:35.006] LOG  : Lua         , 1654396895006> 1,369,901> Loading: media/lua/server/Items/SuburbsDistributions.lua.
+[04-06-22 19:41:35.013] LOG  : Lua         , 1654396895012> 1,369,908> Loading: media/lua/server/Items/TileOverlays.lua.
+[04-06-22 19:41:35.018] LOG  : Lua         , 1654396895018> 1,369,913> Loading: media/lua/server/Items/TileOverlaysSmooth.lua.
+[04-06-22 19:41:35.021] LOG  : Lua         , 1654396895020> 1,369,915> Loading: media/lua/server/Items/WallsBrickOverlays.lua.
+[04-06-22 19:41:35.025] LOG  : Lua         , 1654396895025> 1,369,919> Loading: media/lua/server/Items/WorldFiller.lua.
+[04-06-22 19:41:35.029] LOG  : Lua         , 1654396895029> 1,369,925> Loading: media/lua/server/Map/MapObjects/MOBarricade.lua.
+[04-06-22 19:41:35.034] LOG  : Lua         , 1654396895034> 1,369,929> Loading: media/lua/server/Map/MapObjects/MOCampfire.lua.
+[04-06-22 19:41:35.040] LOG  : Lua         , 1654396895040> 1,369,935> Loading: media/lua/server/Map/MapObjects/MOCompost.lua.
+[04-06-22 19:41:35.049] LOG  : Lua         , 1654396895048> 1,369,944> Loading: media/lua/server/Map/MapObjects/MOFarming.lua.
+[04-06-22 19:41:35.052] LOG  : Lua         , 1654396895052> 1,369,947> Loading: media/lua/server/Map/MapObjects/MOGenerator.lua.
+[04-06-22 19:41:35.053] LOG  : Lua         , 1654396895053> 1,369,948> Loading: media/lua/server/Map/MapObjects/MOLampOnPillar.lua.
+[04-06-22 19:41:35.055] LOG  : Lua         , 1654396895054> 1,369,949> Loading: media/lua/server/Map/MapObjects/MOMetalDrum.lua.
+[04-06-22 19:41:35.056] LOG  : Lua         , 1654396895056> 1,369,951> Loading: media/lua/server/Map/MapObjects/MORainCollectorBarrel.lua.
+[04-06-22 19:41:35.057] LOG  : Lua         , 1654396895057> 1,369,952> Loading: media/lua/server/RainBarrel/BuildingObjects/RainCollectorBarrel.lua.
+[04-06-22 19:41:35.059] LOG  : Lua         , 1654396895059> 1,369,954> Loading: media/lua/server/Map/MapObjects/MORandomPottedPlant.lua.
+[04-06-22 19:41:35.061] LOG  : Lua         , 1654396895061> 1,369,956> Loading: media/lua/server/Map/MapObjects/MOTent.lua.
+[04-06-22 19:41:35.062] LOG  : Lua         , 1654396895062> 1,369,957> Loading: media/lua/server/Map/MapObjects/MOTrap.lua.
+[04-06-22 19:41:35.064] LOG  : Lua         , 1654396895064> 1,369,959> Loading: media/lua/server/Traps/TrapDefinition.lua.
+[04-06-22 19:41:35.065] LOG  : Lua         , 1654396895065> 1,369,960> Loading: media/lua/server/Traps/STrapSystem.lua.
+[04-06-22 19:41:35.067] LOG  : Lua         , 1654396895067> 1,369,962> Loading: media/lua/server/Map/MapObjects/MOWoodenWallFrame.lua.
+[04-06-22 19:41:35.069] LOG  : Lua         , 1654396895069> 1,369,963> Loading: media/lua/server/Map/MetaEnum.lua.
+[04-06-22 19:41:35.070] LOG  : Lua         , 1654396895070> 1,369,965> Loading: media/lua/server/MetalDrum/BuildingObjects/ISMetalDrum.lua.
+[04-06-22 19:41:35.074] LOG  : Lua         , 1654396895073> 1,369,969> Loading: media/lua/server/MetalDrum/SMetalDrumGlobalObject.lua.
+[04-06-22 19:41:35.079] LOG  : Lua         , 1654396895079> 1,369,975> Loading: media/lua/server/MetalDrum/SMetalDrumSystem.lua.
+[04-06-22 19:41:35.091] LOG  : Lua         , 1654396895091> 1,369,986> Loading: media/lua/server/Movers/ISBaseMover.lua.
+[04-06-22 19:41:35.095] LOG  : Lua         , 1654396895095> 1,369,990> Loading: media/lua/server/Movers/MoverStateMachine.lua.
+[04-06-22 19:41:35.096] LOG  : Lua         , 1654396895096> 1,369,991> Loading: media/lua/server/Movers/MoverStates/ISBaseState.lua.
+[04-06-22 19:41:35.097] LOG  : Lua         , 1654396895097> 1,369,992> Loading: media/lua/server/Movers/MoverStates/MoveToState.lua.
+[04-06-22 19:41:35.099] LOG  : Lua         , 1654396895099> 1,369,994> Loading: media/lua/server/Movers/Rabbit.lua.
+[04-06-22 19:41:35.101] LOG  : Lua         , 1654396895101> 1,369,995> Loading: media/lua/server/NPCs/SadisticAIDirector/SadisticMusicDirector.lua.
+[04-06-22 19:41:35.104] LOG  : Lua         , 1654396895103> 1,369,998> Loading: media/lua/server/NewSelectionSystem/GridSquareSelector.lua.
+[04-06-22 19:41:35.106] LOG  : Lua         , 1654396895106> 1,370,001> Loading: media/lua/server/Professions/Professions.lua.
+[04-06-22 19:41:35.108] LOG  : Lua         , 1654396895108> 1,370,002> Loading: media/lua/server/RainBarrel/SRainBarrelGlobalObject.lua.
+[04-06-22 19:41:35.111] LOG  : Lua         , 1654396895110> 1,370,005> Loading: media/lua/server/RainBarrel/SRainBarrelSystem.lua.
+[04-06-22 19:41:35.112] LOG  : Lua         , 1654396895112> 1,370,008> Loading: media/lua/server/Seasons/season.lua.
+[04-06-22 19:41:35.123] LOG  : Lua         , 1654396895123> 1,370,018> Loading: media/lua/server/Seasons/seasonProps.lua.
+[04-06-22 19:41:35.131] LOG  : Lua         , 1654396895131> 1,370,026> Loading: media/lua/server/Traps/BuildingObjects/TrapBO.lua.
+[04-06-22 19:41:35.133] LOG  : Lua         , 1654396895133> 1,370,028> Loading: media/lua/server/Traps/ISUI/ISTrapMenu.lua.
+[04-06-22 19:41:35.140] LOG  : Lua         , 1654396895140> 1,370,036> Loading: media/lua/server/Traps/STrapGlobalObject.lua.
+[04-06-22 19:41:35.143] LOG  : Lua         , 1654396895143> 1,370,038> Loading: media/lua/server/Traps/TrapRecipeCode.lua.
+[04-06-22 19:41:35.144] LOG  : Lua         , 1654396895144> 1,370,039> Loading: media/lua/server/Traps/trappingCommands.lua.
+[04-06-22 19:41:35.146] LOG  : Lua         , 1654396895146> 1,370,041> Loading: media/lua/server/TurnBased/TurnBasedMain.lua.
+[04-06-22 19:41:35.147] LOG  : Lua         , 1654396895147> 1,370,042> Loading: media/lua/server/TutorialHelperFunctions.lua.
+[04-06-22 19:41:35.149] LOG  : Lua         , 1654396895148> 1,370,043> Loading: media/lua/server/Vehicles/VehicleCommands.lua.
+[04-06-22 19:41:35.152] LOG  : Lua         , 1654396895152> 1,370,047> Loading: media/lua/server/Vehicles/VehicleDistributions.lua.
+[04-06-22 19:41:35.156] LOG  : Lua         , 1654396895156> 1,370,051> Loading: media/lua/server/Vehicles/Vehicles.lua.
+[04-06-22 19:41:35.160] LOG  : Lua         , 1654396895160> 1,370,055> Loading: media/lua/server/XpSystem/XPSystem_SkillBook.lua.
+[04-06-22 19:41:35.162] LOG  : Lua         , 1654396895162> 1,370,057> Loading: media/lua/server/XpSystem/XpSystem_text.lua.
+[04-06-22 19:41:35.164] LOG  : Lua         , 1654396895164> 1,370,059> Loading: media/lua/server/XpSystem/XpUpdate.lua.
+[04-06-22 19:41:35.172] LOG  : Lua         , 1654396895172> 1,370,067> Loading: media/lua/server/metazones/metazoneHandler.lua.
+[04-06-22 19:41:35.174] LOG  : Lua         , 1654396895174> 1,370,069> Loading: media/lua/server/radio/ISDynamicRadio.lua.
+[04-06-22 19:41:35.175] LOG  : Lua         , 1654396895175> 1,370,070> Loading: media/lua/server/radio/ISWeatherChannel.lua.
+[04-06-22 19:41:35.178] LOG  : Lua         , 1654396895178> 1,370,073> Loading: media/lua/server/recipecode.lua.
+[04-06-22 19:41:35.192] LOG  : General     , 1654396895192> 1,370,087> luaChecksum: d2ca074c69006a5c0bcc33204b213796.
+[04-06-22 19:41:35.445] LOG  : General     , 1654396895445> 1,370,341> writing C:\Users\Administrator\Zomboid\Server\servertest_SandboxVars.lua.
+[04-06-22 19:41:35.520] LOG  : Lua         , 1654396895519> 1,370,414> Loading: C:/Users/Administrator/Zomboid/Server/servertest_spawnregions.lua.
+[04-06-22 19:41:35.521] LOG  : Lua         , 1654396895521> 1,370,416> Loading: media/maps/Muldraugh, KY/spawnpoints.lua.
+[04-06-22 19:41:35.523] LOG  : Lua         , 1654396895523> 1,370,418> Loading: media/maps/West Point, KY/spawnpoints.lua.
+[04-06-22 19:41:35.525] LOG  : Lua         , 1654396895525> 1,370,420> Loading: media/maps/Rosewood, KY/spawnpoints.lua.
+[04-06-22 19:41:35.529] LOG  : Lua         , 1654396895529> 1,370,424> Loading: media/maps/Riverside, KY/spawnpoints.lua.
+[04-06-22 19:41:35.555] LOG  : Network     , 1654396895555> 1,370,450> Loading world....
+[04-06-22 19:41:35.562] LOG  : General     , 1654396895562> 1,370,457> writing C:\Users\Administrator\Zomboid\Server\servertest.ini.
+[04-06-22 19:41:35.565] LOG  : General     , 1654396895565> 1,370,460> IsoMetaGrid.Create: begin scanning directories.
+[04-06-22 19:41:35.570] LOG  : General     , 1654396895570> 1,370,466> Looking in these map folders:.
+[04-06-22 19:41:35.573] LOG  : General     , 1654396895572> 1,370,468>     C:\pzserver\media\maps\Muldraugh, KY.
+[04-06-22 19:41:35.579] LOG  : General     , 1654396895579> 1,370,474> <End of map-folders list>.
+[04-06-22 19:41:35.593] LOG  : General     , 1654396895593> 1,370,488> IsoMetaGrid.Create: finished scanning directories in 0.026 seconds.
+[04-06-22 19:41:35.594] LOG  : General     , 1654396895594> 1,370,489> IsoMetaGrid.Create: begin loading.
+[04-06-22 19:41:35.750] LOG  : General     , 1654396895750> 1,370,645> tiledef: loading C:\pzserver\media\tiledefinitions.tiles.
+[04-06-22 19:41:35.756] LOG  : General     , 1654396895756> 1,370,651> tiledef: loading C:\pzserver\media\newtiledefinitions.tiles.
+[04-06-22 19:41:35.809] LOG  : General     , 1654396895809> 1,370,704> tiledef: loading C:\pzserver\media\tiledefinitions_erosion.tiles.
+[04-06-22 19:41:35.814] LOG  : General     , 1654396895814> 1,370,708> tiledef: loading C:\pzserver\media\tiledefinitions_apcom.tiles.
+[04-06-22 19:41:35.815] LOG  : General     , 1654396895815> 1,370,710> tiledef: loading C:\pzserver\media\tiledefinitions_overlays.tiles.
+[04-06-22 19:41:35.818] LOG  : General     , 1654396895818> 1,370,713> tiledef: loading C:\pzserver\media\tiledefinitions_noiseworks.patch.tiles.
+[04-06-22 19:41:35.824] LOG  : General     , 1654396895824> 1,370,719> tiledef: loading C:\pzserver\media\tiledefinitions.tiles.
+[04-06-22 19:41:35.902] LOG  : General     , 1654396895902> 1,370,796> tiledef: loading C:\pzserver\media\newtiledefinitions.tiles.
+[04-06-22 19:41:35.987] LOG  : General     , 1654396895987> 1,370,883> MOVABLES: E face defined more than once for group: (Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:35.988] LOG  : General     , 1654396895988> 1,370,884> MOVABLES: S face defined more than once for group: (Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:35.989] LOG  : General     , 1654396895989> 1,370,885> MOVABLES: E face defined more than once for group: (Left Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:35.989] LOG  : General     , 1654396895989> 1,370,885> MOVABLES: S face defined more than once for group: (Left Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:35.990] LOG  : General     , 1654396895990> 1,370,885> MOVABLES: E face defined more than once for group: (Right Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:35.991] LOG  : General     , 1654396895991> 1,370,886> MOVABLES: S face defined more than once for group: (Right Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:35.991] LOG  : General     , 1654396895991> 1,370,887> MOVABLES: E face defined more than once for group: (Bar Tap Antique) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:35.992] LOG  : General     , 1654396895992> 1,370,887> MOVABLES: Object has too many faces defined for group: (Bar Counter) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:35.992] LOG  : General     , 1654396895992> 1,370,888> MOVABLES: Object has too many faces defined for group: (Bar Corner Counter) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:36.021] LOG  : General     , 1654396896021> 1,370,916> MOVABLES: Object has only one face defined for group: (Streetname Sign) sheet = street_decoration_01.
+[04-06-22 19:41:36.023] LOG  : General     , 1654396896023> 1,370,918> MOVABLES: Not all members have a valid face defined for group: (Streetname Sign) sheet = street_decoration_01.
+[04-06-22 19:41:36.061] LOG  : General     , 1654396896061> 1,370,956> MOVABLES: Object only has 3 sprites, _might_ have a error in settings, group: (Tattoo Parlor Sign) sheet = location_shop_accessories_genericsigns_01.
+[04-06-22 19:41:36.062] LOG  : General     , 1654396896062> 1,370,957> MOVABLES: Object only has 3 sprites, _might_ have a error in settings, group: (Bail Bonds Sign) sheet = location_shop_accessories_genericsigns_01.
+[04-06-22 19:41:36.064] LOG  : General     , 1654396896064> 1,370,959> MOVABLES: Object only has 3 sprites, _might_ have a error in settings, group: (Pony Roam-o Sign) sheet = signs_one-off_01.
+[04-06-22 19:41:36.093] LOG  : General     , 1654396896093> 1,370,988> MOVABLES: Not all members have a valid face defined for group: (Military Crate) sheet = location_military_generic_01.
+[04-06-22 19:41:36.096] LOG  : General     , 1654396896096> 1,370,991> MOVABLES: Object only has 3 sprites, _might_ have a error in settings, group: (The Glorious Spiffo) sheet = location_restaurant_spiffos_03.
+[04-06-22 19:41:36.119] LOG  : General     , 1654396896119> 1,371,014> tiledef: loading C:\pzserver\media\tiledefinitions_erosion.tiles.
+[04-06-22 19:41:36.124] LOG  : General     , 1654396896124> 1,371,019> duplicate texture d_floorleaves_1_0 ignore ID=524800, use ID=355000.
+[04-06-22 19:41:36.126] LOG  : General     , 1654396896126> 1,371,021> duplicate texture d_floorleaves_1_1 ignore ID=524801, use ID=355001.
+[04-06-22 19:41:36.129] LOG  : General     , 1654396896128> 1,371,023> duplicate texture d_floorleaves_1_2 ignore ID=524802, use ID=355002.
+[04-06-22 19:41:36.129] LOG  : General     , 1654396896129> 1,371,024> duplicate texture d_floorleaves_1_3 ignore ID=524803, use ID=355003.
+[04-06-22 19:41:36.129] LOG  : General     , 1654396896129> 1,371,024> duplicate texture d_floorleaves_1_4 ignore ID=524804, use ID=355004.
+[04-06-22 19:41:36.132] LOG  : General     , 1654396896132> 1,371,027> duplicate texture d_floorleaves_1_5 ignore ID=524805, use ID=355005.
+[04-06-22 19:41:36.134] LOG  : General     , 1654396896134> 1,371,029> duplicate texture d_floorleaves_1_6 ignore ID=524806, use ID=355006.
+[04-06-22 19:41:36.135] LOG  : General     , 1654396896135> 1,371,030> duplicate texture d_floorleaves_1_7 ignore ID=524807, use ID=355007.
+[04-06-22 19:41:36.136] LOG  : General     , 1654396896136> 1,371,031> duplicate texture d_floorleaves_1_8 ignore ID=524808, use ID=355008.
+[04-06-22 19:41:36.136] LOG  : General     , 1654396896136> 1,371,031> duplicate texture d_floorleaves_1_9 ignore ID=524809, use ID=355009.
+[04-06-22 19:41:36.136] LOG  : General     , 1654396896136> 1,371,031> duplicate texture d_floorleaves_1_10 ignore ID=524810, use ID=355010.
+[04-06-22 19:41:36.137] LOG  : General     , 1654396896137> 1,371,032> duplicate texture d_floorleaves_1_11 ignore ID=524811, use ID=355011.
+[04-06-22 19:41:36.137] LOG  : General     , 1654396896137> 1,371,032> duplicate texture d_floorleaves_1_12 ignore ID=524812, use ID=355012.
+[04-06-22 19:41:36.138] LOG  : General     , 1654396896138> 1,371,033> duplicate texture d_floorleaves_1_13 ignore ID=524813, use ID=355013.
+[04-06-22 19:41:36.139] LOG  : General     , 1654396896138> 1,371,033> duplicate texture d_floorleaves_1_14 ignore ID=524814, use ID=355014.
+[04-06-22 19:41:36.139] LOG  : General     , 1654396896139> 1,371,034> duplicate texture d_floorleaves_1_15 ignore ID=524815, use ID=355015.
+[04-06-22 19:41:36.140] LOG  : General     , 1654396896140> 1,371,035> duplicate texture d_floorleaves_1_16 ignore ID=524816, use ID=355016.
+[04-06-22 19:41:36.140] LOG  : General     , 1654396896140> 1,371,035> duplicate texture d_floorleaves_1_17 ignore ID=524817, use ID=355017.
+[04-06-22 19:41:36.141] LOG  : General     , 1654396896141> 1,371,036> duplicate texture d_floorleaves_1_18 ignore ID=524818, use ID=355018.
+[04-06-22 19:41:36.144] LOG  : General     , 1654396896144> 1,371,039> duplicate texture d_floorleaves_1_19 ignore ID=524819, use ID=355019.
+[04-06-22 19:41:36.145] LOG  : General     , 1654396896145> 1,371,040> duplicate texture d_floorleaves_1_20 ignore ID=524820, use ID=355020.
+[04-06-22 19:41:36.146] LOG  : General     , 1654396896146> 1,371,041> duplicate texture d_floorleaves_1_21 ignore ID=524821, use ID=355021.
+[04-06-22 19:41:36.147] LOG  : General     , 1654396896147> 1,371,041> duplicate texture d_floorleaves_1_22 ignore ID=524822, use ID=355022.
+[04-06-22 19:41:36.149] LOG  : General     , 1654396896149> 1,371,044> duplicate texture d_floorleaves_1_23 ignore ID=524823, use ID=355023.
+[04-06-22 19:41:36.150] LOG  : General     , 1654396896150> 1,371,045> duplicate texture d_floorleaves_1_24 ignore ID=524824, use ID=355024.
+[04-06-22 19:41:36.151] LOG  : General     , 1654396896151> 1,371,045> duplicate texture d_floorleaves_1_25 ignore ID=524825, use ID=355025.
+[04-06-22 19:41:36.151] LOG  : General     , 1654396896151> 1,371,046> duplicate texture d_floorleaves_1_26 ignore ID=524826, use ID=355026.
+[04-06-22 19:41:36.152] LOG  : General     , 1654396896152> 1,371,047> duplicate texture d_floorleaves_1_27 ignore ID=524827, use ID=355027.
+[04-06-22 19:41:36.152] LOG  : General     , 1654396896152> 1,371,047> duplicate texture d_floorleaves_1_28 ignore ID=524828, use ID=355028.
+[04-06-22 19:41:36.153] LOG  : General     , 1654396896153> 1,371,048> duplicate texture d_floorleaves_1_29 ignore ID=524829, use ID=355029.
+[04-06-22 19:41:36.153] LOG  : General     , 1654396896153> 1,371,049> duplicate texture d_floorleaves_1_30 ignore ID=524830, use ID=355030.
+[04-06-22 19:41:36.154] LOG  : General     , 1654396896154> 1,371,050> duplicate texture d_floorleaves_1_31 ignore ID=524831, use ID=355031.
+[04-06-22 19:41:36.156] LOG  : General     , 1654396896156> 1,371,051> duplicate texture d_generic_1_0 ignore ID=525312, use ID=356000.
+[04-06-22 19:41:36.158] LOG  : General     , 1654396896157> 1,371,053> duplicate texture d_generic_1_1 ignore ID=525313, use ID=356001.
+[04-06-22 19:41:36.160] LOG  : General     , 1654396896160> 1,371,055> duplicate texture d_generic_1_2 ignore ID=525314, use ID=356002.
+[04-06-22 19:41:36.162] LOG  : General     , 1654396896162> 1,371,057> duplicate texture d_generic_1_3 ignore ID=525315, use ID=356003.
+[04-06-22 19:41:36.163] LOG  : General     , 1654396896163> 1,371,058> duplicate texture d_generic_1_4 ignore ID=525316, use ID=356004.
+[04-06-22 19:41:36.163] LOG  : General     , 1654396896163> 1,371,059> duplicate texture d_generic_1_5 ignore ID=525317, use ID=356005.
+[04-06-22 19:41:36.164] LOG  : General     , 1654396896164> 1,371,059> duplicate texture d_generic_1_6 ignore ID=525318, use ID=356006.
+[04-06-22 19:41:36.164] LOG  : General     , 1654396896164> 1,371,060> duplicate texture d_generic_1_7 ignore ID=525319, use ID=356007.
+[04-06-22 19:41:36.165] LOG  : General     , 1654396896165> 1,371,060> duplicate texture d_generic_1_8 ignore ID=525320, use ID=356008.
+[04-06-22 19:41:36.166] LOG  : General     , 1654396896166> 1,371,061> duplicate texture d_generic_1_9 ignore ID=525321, use ID=356009.
+[04-06-22 19:41:36.166] LOG  : General     , 1654396896166> 1,371,062> duplicate texture d_generic_1_10 ignore ID=525322, use ID=356010.
+[04-06-22 19:41:36.167] LOG  : General     , 1654396896167> 1,371,062> duplicate texture d_generic_1_11 ignore ID=525323, use ID=356011.
+[04-06-22 19:41:36.167] LOG  : General     , 1654396896167> 1,371,063> duplicate texture d_generic_1_12 ignore ID=525324, use ID=356012.
+[04-06-22 19:41:36.168] LOG  : General     , 1654396896168> 1,371,063> duplicate texture d_generic_1_13 ignore ID=525325, use ID=356013.
+[04-06-22 19:41:36.168] LOG  : General     , 1654396896168> 1,371,064> duplicate texture d_generic_1_14 ignore ID=525326, use ID=356014.
+[04-06-22 19:41:36.169] LOG  : General     , 1654396896169> 1,371,064> duplicate texture d_generic_1_15 ignore ID=525327, use ID=356015.
+[04-06-22 19:41:36.169] LOG  : General     , 1654396896169> 1,371,065> duplicate texture d_generic_1_16 ignore ID=525328, use ID=356016.
+[04-06-22 19:41:36.170] LOG  : General     , 1654396896170> 1,371,065> duplicate texture d_generic_1_17 ignore ID=525329, use ID=356017.
+[04-06-22 19:41:36.171] LOG  : General     , 1654396896170> 1,371,066> duplicate texture d_generic_1_18 ignore ID=525330, use ID=356018.
+[04-06-22 19:41:36.171] LOG  : General     , 1654396896171> 1,371,066> duplicate texture d_generic_1_19 ignore ID=525331, use ID=356019.
+[04-06-22 19:41:36.174] LOG  : General     , 1654396896174> 1,371,069> duplicate texture d_generic_1_20 ignore ID=525332, use ID=356020.
+[04-06-22 19:41:36.175] LOG  : General     , 1654396896175> 1,371,070> duplicate texture d_generic_1_21 ignore ID=525333, use ID=356021.
+[04-06-22 19:41:36.176] LOG  : General     , 1654396896176> 1,371,071> duplicate texture d_generic_1_22 ignore ID=525334, use ID=356022.
+[04-06-22 19:41:36.176] LOG  : General     , 1654396896176> 1,371,071> duplicate texture d_generic_1_23 ignore ID=525335, use ID=356023.
+[04-06-22 19:41:36.177] LOG  : General     , 1654396896177> 1,371,072> duplicate texture d_generic_1_24 ignore ID=525336, use ID=356024.
+[04-06-22 19:41:36.177] LOG  : General     , 1654396896177> 1,371,072> duplicate texture d_generic_1_25 ignore ID=525337, use ID=356025.
+[04-06-22 19:41:36.178] LOG  : General     , 1654396896178> 1,371,073> duplicate texture d_generic_1_26 ignore ID=525338, use ID=356026.
+[04-06-22 19:41:36.178] LOG  : General     , 1654396896178> 1,371,073> duplicate texture d_generic_1_27 ignore ID=525339, use ID=356027.
+[04-06-22 19:41:36.179] LOG  : General     , 1654396896179> 1,371,074> duplicate texture d_generic_1_28 ignore ID=525340, use ID=356028.
+[04-06-22 19:41:36.179] LOG  : General     , 1654396896179> 1,371,074> duplicate texture d_generic_1_29 ignore ID=525341, use ID=356029.
+[04-06-22 19:41:36.180] LOG  : General     , 1654396896180> 1,371,075> duplicate texture d_generic_1_30 ignore ID=525342, use ID=356030.
+[04-06-22 19:41:36.180] LOG  : General     , 1654396896180> 1,371,075> duplicate texture d_generic_1_31 ignore ID=525343, use ID=356031.
+[04-06-22 19:41:36.181] LOG  : General     , 1654396896181> 1,371,076> duplicate texture d_generic_1_32 ignore ID=525344, use ID=356032.
+[04-06-22 19:41:36.182] LOG  : General     , 1654396896182> 1,371,077> duplicate texture d_generic_1_33 ignore ID=525345, use ID=356033.
+[04-06-22 19:41:36.182] LOG  : General     , 1654396896182> 1,371,077> duplicate texture d_generic_1_34 ignore ID=525346, use ID=356034.
+[04-06-22 19:41:36.183] LOG  : General     , 1654396896183> 1,371,078> duplicate texture d_generic_1_35 ignore ID=525347, use ID=356035.
+[04-06-22 19:41:36.183] LOG  : General     , 1654396896183> 1,371,078> duplicate texture d_generic_1_36 ignore ID=525348, use ID=356036.
+[04-06-22 19:41:36.184] LOG  : General     , 1654396896184> 1,371,079> duplicate texture d_generic_1_37 ignore ID=525349, use ID=356037.
+[04-06-22 19:41:36.185] LOG  : General     , 1654396896185> 1,371,080> duplicate texture d_generic_1_38 ignore ID=525350, use ID=356038.
+[04-06-22 19:41:36.185] LOG  : General     , 1654396896185> 1,371,080> duplicate texture d_generic_1_39 ignore ID=525351, use ID=356039.
+[04-06-22 19:41:36.186] LOG  : General     , 1654396896186> 1,371,081> duplicate texture d_generic_1_40 ignore ID=525352, use ID=356040.
+[04-06-22 19:41:36.186] LOG  : General     , 1654396896186> 1,371,081> duplicate texture d_generic_1_41 ignore ID=525353, use ID=356041.
+[04-06-22 19:41:36.187] LOG  : General     , 1654396896187> 1,371,082> duplicate texture d_generic_1_42 ignore ID=525354, use ID=356042.
+[04-06-22 19:41:36.187] LOG  : General     , 1654396896187> 1,371,082> duplicate texture d_generic_1_43 ignore ID=525355, use ID=356043.
+[04-06-22 19:41:36.188] LOG  : General     , 1654396896188> 1,371,082> duplicate texture d_generic_1_44 ignore ID=525356, use ID=356044.
+[04-06-22 19:41:36.188] LOG  : General     , 1654396896188> 1,371,083> duplicate texture d_generic_1_45 ignore ID=525357, use ID=356045.
+[04-06-22 19:41:36.189] LOG  : General     , 1654396896189> 1,371,083> duplicate texture d_generic_1_46 ignore ID=525358, use ID=356046.
+[04-06-22 19:41:36.189] LOG  : General     , 1654396896189> 1,371,084> duplicate texture d_generic_1_47 ignore ID=525359, use ID=356047.
+[04-06-22 19:41:36.190] LOG  : General     , 1654396896190> 1,371,084> duplicate texture d_generic_1_48 ignore ID=525360, use ID=356048.
+[04-06-22 19:41:36.190] LOG  : General     , 1654396896190> 1,371,085> duplicate texture d_generic_1_49 ignore ID=525361, use ID=356049.
+[04-06-22 19:41:36.191] LOG  : General     , 1654396896191> 1,371,086> duplicate texture d_generic_1_50 ignore ID=525362, use ID=356050.
+[04-06-22 19:41:36.191] LOG  : General     , 1654396896191> 1,371,086> duplicate texture d_generic_1_51 ignore ID=525363, use ID=356051.
+[04-06-22 19:41:36.199] LOG  : General     , 1654396896199> 1,371,094> duplicate texture d_generic_1_52 ignore ID=525364, use ID=356052.
+[04-06-22 19:41:36.201] LOG  : General     , 1654396896201> 1,371,097> duplicate texture d_generic_1_53 ignore ID=525365, use ID=356053.
+[04-06-22 19:41:36.202] LOG  : General     , 1654396896202> 1,371,098> duplicate texture d_generic_1_54 ignore ID=525366, use ID=356054.
+[04-06-22 19:41:36.203] LOG  : General     , 1654396896203> 1,371,098> duplicate texture d_generic_1_55 ignore ID=525367, use ID=356055.
+[04-06-22 19:41:36.204] LOG  : General     , 1654396896203> 1,371,099> duplicate texture d_generic_1_56 ignore ID=525368, use ID=356056.
+[04-06-22 19:41:36.204] LOG  : General     , 1654396896204> 1,371,099> duplicate texture d_generic_1_57 ignore ID=525369, use ID=356057.
+[04-06-22 19:41:36.204] LOG  : General     , 1654396896204> 1,371,100> duplicate texture d_generic_1_58 ignore ID=525370, use ID=356058.
+[04-06-22 19:41:36.205] LOG  : General     , 1654396896205> 1,371,100> duplicate texture d_generic_1_59 ignore ID=525371, use ID=356059.
+[04-06-22 19:41:36.206] LOG  : General     , 1654396896206> 1,371,101> duplicate texture d_generic_1_60 ignore ID=525372, use ID=356060.
+[04-06-22 19:41:36.206] LOG  : General     , 1654396896206> 1,371,102> duplicate texture d_generic_1_61 ignore ID=525373, use ID=356061.
+[04-06-22 19:41:36.207] LOG  : General     , 1654396896207> 1,371,102> duplicate texture d_generic_1_62 ignore ID=525374, use ID=356062.
+[04-06-22 19:41:36.207] LOG  : General     , 1654396896207> 1,371,102> duplicate texture d_generic_1_63 ignore ID=525375, use ID=356063.
+[04-06-22 19:41:36.207] LOG  : General     , 1654396896207> 1,371,103> duplicate texture d_generic_1_64 ignore ID=525376, use ID=356064.
+[04-06-22 19:41:36.208] LOG  : General     , 1654396896208> 1,371,103> duplicate texture d_generic_1_65 ignore ID=525377, use ID=356065.
+[04-06-22 19:41:36.208] LOG  : General     , 1654396896208> 1,371,104> duplicate texture d_generic_1_66 ignore ID=525378, use ID=356066.
+[04-06-22 19:41:36.209] LOG  : General     , 1654396896209> 1,371,104> duplicate texture d_generic_1_67 ignore ID=525379, use ID=356067.
+[04-06-22 19:41:36.209] LOG  : General     , 1654396896209> 1,371,104> duplicate texture d_generic_1_68 ignore ID=525380, use ID=356068.
+[04-06-22 19:41:36.210] LOG  : General     , 1654396896210> 1,371,105> duplicate texture d_generic_1_69 ignore ID=525381, use ID=356069.
+[04-06-22 19:41:36.210] LOG  : General     , 1654396896210> 1,371,106> duplicate texture d_generic_1_70 ignore ID=525382, use ID=356070.
+[04-06-22 19:41:36.217] LOG  : General     , 1654396896217> 1,371,112> duplicate texture d_generic_1_71 ignore ID=525383, use ID=356071.
+[04-06-22 19:41:36.219] LOG  : General     , 1654396896219> 1,371,114> duplicate texture d_generic_1_72 ignore ID=525384, use ID=356072.
+[04-06-22 19:41:36.220] LOG  : General     , 1654396896220> 1,371,115> duplicate texture d_generic_1_73 ignore ID=525385, use ID=356073.
+[04-06-22 19:41:36.220] LOG  : General     , 1654396896220> 1,371,115> duplicate texture d_generic_1_74 ignore ID=525386, use ID=356074.
+[04-06-22 19:41:36.221] LOG  : General     , 1654396896221> 1,371,116> duplicate texture d_generic_1_75 ignore ID=525387, use ID=356075.
+[04-06-22 19:41:36.221] LOG  : General     , 1654396896221> 1,371,116> duplicate texture d_generic_1_76 ignore ID=525388, use ID=356076.
+[04-06-22 19:41:36.222] LOG  : General     , 1654396896222> 1,371,117> duplicate texture d_generic_1_77 ignore ID=525389, use ID=356077.
+[04-06-22 19:41:36.222] LOG  : General     , 1654396896222> 1,371,117> duplicate texture d_generic_1_78 ignore ID=525390, use ID=356078.
+[04-06-22 19:41:36.223] LOG  : General     , 1654396896223> 1,371,118> duplicate texture d_generic_1_79 ignore ID=525391, use ID=356079.
+[04-06-22 19:41:36.223] LOG  : General     , 1654396896223> 1,371,118> duplicate texture d_generic_1_80 ignore ID=525392, use ID=356080.
+[04-06-22 19:41:36.224] LOG  : General     , 1654396896224> 1,371,119> duplicate texture d_generic_1_81 ignore ID=525393, use ID=356081.
+[04-06-22 19:41:36.225] LOG  : General     , 1654396896225> 1,371,120> duplicate texture d_generic_1_82 ignore ID=525394, use ID=356082.
+[04-06-22 19:41:36.225] LOG  : General     , 1654396896225> 1,371,120> duplicate texture d_generic_1_83 ignore ID=525395, use ID=356083.
+[04-06-22 19:41:36.227] LOG  : General     , 1654396896227> 1,371,122> duplicate texture d_generic_1_84 ignore ID=525396, use ID=356084.
+[04-06-22 19:41:36.227] LOG  : General     , 1654396896227> 1,371,123> duplicate texture d_generic_1_85 ignore ID=525397, use ID=356085.
+[04-06-22 19:41:36.231] LOG  : General     , 1654396896231> 1,371,126> duplicate texture d_generic_1_86 ignore ID=525398, use ID=356086.
+[04-06-22 19:41:36.233] LOG  : General     , 1654396896233> 1,371,127> duplicate texture d_generic_1_87 ignore ID=525399, use ID=356087.
+[04-06-22 19:41:36.235] LOG  : General     , 1654396896235> 1,371,130> duplicate texture d_generic_1_88 ignore ID=525400, use ID=356088.
+[04-06-22 19:41:36.236] LOG  : General     , 1654396896236> 1,371,131> duplicate texture d_generic_1_89 ignore ID=525401, use ID=356089.
+[04-06-22 19:41:36.239] LOG  : General     , 1654396896239> 1,371,135> duplicate texture d_generic_1_90 ignore ID=525402, use ID=356090.
+[04-06-22 19:41:36.240] LOG  : General     , 1654396896240> 1,371,136> duplicate texture d_generic_1_91 ignore ID=525403, use ID=356091.
+[04-06-22 19:41:36.241] LOG  : General     , 1654396896241> 1,371,136> duplicate texture d_generic_1_92 ignore ID=525404, use ID=356092.
+[04-06-22 19:41:36.241] LOG  : General     , 1654396896241> 1,371,137> duplicate texture d_generic_1_93 ignore ID=525405, use ID=356093.
+[04-06-22 19:41:36.242] LOG  : General     , 1654396896242> 1,371,137> duplicate texture d_generic_1_94 ignore ID=525406, use ID=356094.
+[04-06-22 19:41:36.242] LOG  : General     , 1654396896242> 1,371,138> duplicate texture d_generic_1_95 ignore ID=525407, use ID=356095.
+[04-06-22 19:41:36.243] LOG  : General     , 1654396896243> 1,371,138> duplicate texture d_generic_1_96 ignore ID=525408, use ID=356096.
+[04-06-22 19:41:36.243] LOG  : General     , 1654396896243> 1,371,138> duplicate texture d_generic_1_97 ignore ID=525409, use ID=356097.
+[04-06-22 19:41:36.244] LOG  : General     , 1654396896243> 1,371,139> duplicate texture d_generic_1_98 ignore ID=525410, use ID=356098.
+[04-06-22 19:41:36.244] LOG  : General     , 1654396896244> 1,371,139> duplicate texture d_generic_1_99 ignore ID=525411, use ID=356099.
+[04-06-22 19:41:36.246] LOG  : General     , 1654396896246> 1,371,142> duplicate texture d_generic_1_100 ignore ID=525412, use ID=356100.
+[04-06-22 19:41:36.247] LOG  : General     , 1654396896247> 1,371,142> duplicate texture d_generic_1_101 ignore ID=525413, use ID=356101.
+[04-06-22 19:41:36.247] LOG  : General     , 1654396896247> 1,371,143> duplicate texture d_generic_1_102 ignore ID=525414, use ID=356102.
+[04-06-22 19:41:36.248] LOG  : General     , 1654396896248> 1,371,143> duplicate texture d_generic_1_103 ignore ID=525415, use ID=356103.
+[04-06-22 19:41:36.248] LOG  : General     , 1654396896248> 1,371,143> duplicate texture d_generic_1_104 ignore ID=525416, use ID=356104.
+[04-06-22 19:41:36.248] LOG  : General     , 1654396896248> 1,371,144> duplicate texture d_generic_1_105 ignore ID=525417, use ID=356105.
+[04-06-22 19:41:36.249] LOG  : General     , 1654396896249> 1,371,144> duplicate texture d_generic_1_106 ignore ID=525418, use ID=356106.
+[04-06-22 19:41:36.249] LOG  : General     , 1654396896249> 1,371,144> duplicate texture d_generic_1_107 ignore ID=525419, use ID=356107.
+[04-06-22 19:41:36.249] LOG  : General     , 1654396896249> 1,371,145> duplicate texture d_generic_1_108 ignore ID=525420, use ID=356108.
+[04-06-22 19:41:36.250] LOG  : General     , 1654396896250> 1,371,146> duplicate texture d_generic_1_109 ignore ID=525421, use ID=356109.
+[04-06-22 19:41:36.251] LOG  : General     , 1654396896251> 1,371,146> duplicate texture d_generic_1_110 ignore ID=525422, use ID=356110.
+[04-06-22 19:41:36.251] LOG  : General     , 1654396896251> 1,371,147> duplicate texture d_generic_1_111 ignore ID=525423, use ID=356111.
+[04-06-22 19:41:36.252] LOG  : General     , 1654396896252> 1,371,147> duplicate texture d_generic_1_112 ignore ID=525424, use ID=356112.
+[04-06-22 19:41:36.253] LOG  : General     , 1654396896252> 1,371,148> duplicate texture d_generic_1_113 ignore ID=525425, use ID=356113.
+[04-06-22 19:41:36.253] LOG  : General     , 1654396896253> 1,371,148> duplicate texture d_generic_1_114 ignore ID=525426, use ID=356114.
+[04-06-22 19:41:36.254] LOG  : General     , 1654396896254> 1,371,149> duplicate texture d_generic_1_115 ignore ID=525427, use ID=356115.
+[04-06-22 19:41:36.254] LOG  : General     , 1654396896254> 1,371,149> duplicate texture d_generic_1_116 ignore ID=525428, use ID=356116.
+[04-06-22 19:41:36.254] LOG  : General     , 1654396896254> 1,371,150> duplicate texture d_generic_1_117 ignore ID=525429, use ID=356117.
+[04-06-22 19:41:36.255] LOG  : General     , 1654396896255> 1,371,150> duplicate texture d_generic_1_118 ignore ID=525430, use ID=356118.
+[04-06-22 19:41:36.255] LOG  : General     , 1654396896255> 1,371,151> duplicate texture d_generic_1_119 ignore ID=525431, use ID=356119.
+[04-06-22 19:41:36.260] LOG  : General     , 1654396896260> 1,371,155> duplicate texture d_generic_1_120 ignore ID=525432, use ID=356120.
+[04-06-22 19:41:36.261] LOG  : General     , 1654396896261> 1,371,156> duplicate texture d_generic_1_121 ignore ID=525433, use ID=356121.
+[04-06-22 19:41:36.262] LOG  : General     , 1654396896262> 1,371,157> duplicate texture d_generic_1_122 ignore ID=525434, use ID=356122.
+[04-06-22 19:41:36.266] LOG  : General     , 1654396896266> 1,371,161> duplicate texture d_generic_1_123 ignore ID=525435, use ID=356123.
+[04-06-22 19:41:36.266] LOG  : General     , 1654396896266> 1,371,161> duplicate texture d_generic_1_124 ignore ID=525436, use ID=356124.
+[04-06-22 19:41:36.267] LOG  : General     , 1654396896267> 1,371,162> duplicate texture d_generic_1_125 ignore ID=525437, use ID=356125.
+[04-06-22 19:41:36.269] LOG  : General     , 1654396896269> 1,371,164> duplicate texture d_generic_1_126 ignore ID=525438, use ID=356126.
+[04-06-22 19:41:36.269] LOG  : General     , 1654396896269> 1,371,164> duplicate texture d_generic_1_127 ignore ID=525439, use ID=356127.
+[04-06-22 19:41:36.270] LOG  : General     , 1654396896270> 1,371,164> duplicate texture d_generic_1_128 ignore ID=525440, use ID=356128.
+[04-06-22 19:41:36.270] LOG  : General     , 1654396896270> 1,371,165> duplicate texture d_generic_1_129 ignore ID=525441, use ID=356129.
+[04-06-22 19:41:36.270] LOG  : General     , 1654396896270> 1,371,165> duplicate texture d_generic_1_130 ignore ID=525442, use ID=356130.
+[04-06-22 19:41:36.271] LOG  : General     , 1654396896271> 1,371,166> duplicate texture d_generic_1_131 ignore ID=525443, use ID=356131.
+[04-06-22 19:41:36.271] LOG  : General     , 1654396896271> 1,371,166> duplicate texture d_generic_1_132 ignore ID=525444, use ID=356132.
+[04-06-22 19:41:36.271] LOG  : General     , 1654396896271> 1,371,166> duplicate texture d_generic_1_133 ignore ID=525445, use ID=356133.
+[04-06-22 19:41:36.272] LOG  : General     , 1654396896272> 1,371,167> duplicate texture d_generic_1_134 ignore ID=525446, use ID=356134.
+[04-06-22 19:41:36.272] LOG  : General     , 1654396896272> 1,371,167> duplicate texture d_generic_1_135 ignore ID=525447, use ID=356135.
+[04-06-22 19:41:36.273] LOG  : General     , 1654396896273> 1,371,167> duplicate texture d_generic_1_136 ignore ID=525448, use ID=356136.
+[04-06-22 19:41:36.273] LOG  : General     , 1654396896273> 1,371,168> duplicate texture d_generic_1_137 ignore ID=525449, use ID=356137.
+[04-06-22 19:41:36.273] LOG  : General     , 1654396896273> 1,371,168> duplicate texture d_generic_1_138 ignore ID=525450, use ID=356138.
+[04-06-22 19:41:36.274] LOG  : General     , 1654396896274> 1,371,169> duplicate texture d_generic_1_139 ignore ID=525451, use ID=356139.
+[04-06-22 19:41:36.274] LOG  : General     , 1654396896274> 1,371,169> duplicate texture d_generic_1_140 ignore ID=525452, use ID=356140.
+[04-06-22 19:41:36.275] LOG  : General     , 1654396896275> 1,371,169> duplicate texture d_generic_1_141 ignore ID=525453, use ID=356141.
+[04-06-22 19:41:36.278] LOG  : General     , 1654396896278> 1,371,173> duplicate texture d_generic_1_142 ignore ID=525454, use ID=356142.
+[04-06-22 19:41:36.281] LOG  : General     , 1654396896281> 1,371,177> duplicate texture d_generic_1_143 ignore ID=525455, use ID=356143.
+[04-06-22 19:41:36.282] LOG  : General     , 1654396896282> 1,371,178> duplicate texture d_generic_1_144 ignore ID=525456, use ID=356144.
+[04-06-22 19:41:36.282] LOG  : General     , 1654396896282> 1,371,178> duplicate texture d_generic_1_145 ignore ID=525457, use ID=356145.
+[04-06-22 19:41:36.283] LOG  : General     , 1654396896283> 1,371,178> duplicate texture d_generic_1_146 ignore ID=525458, use ID=356146.
+[04-06-22 19:41:36.283] LOG  : General     , 1654396896283> 1,371,179> duplicate texture d_generic_1_147 ignore ID=525459, use ID=356147.
+[04-06-22 19:41:36.284] LOG  : General     , 1654396896283> 1,371,179> duplicate texture d_generic_1_148 ignore ID=525460, use ID=356148.
+[04-06-22 19:41:36.284] LOG  : General     , 1654396896284> 1,371,179> duplicate texture d_generic_1_149 ignore ID=525461, use ID=356149.
+[04-06-22 19:41:36.284] LOG  : General     , 1654396896284> 1,371,180> duplicate texture d_generic_1_150 ignore ID=525462, use ID=356150.
+[04-06-22 19:41:36.285] LOG  : General     , 1654396896285> 1,371,180> duplicate texture d_generic_1_151 ignore ID=525463, use ID=356151.
+[04-06-22 19:41:36.285] LOG  : General     , 1654396896285> 1,371,180> duplicate texture d_generic_1_152 ignore ID=525464, use ID=356152.
+[04-06-22 19:41:36.285] LOG  : General     , 1654396896285> 1,371,181> duplicate texture d_generic_1_153 ignore ID=525465, use ID=356153.
+[04-06-22 19:41:36.286] LOG  : General     , 1654396896286> 1,371,181> duplicate texture d_generic_1_154 ignore ID=525466, use ID=356154.
+[04-06-22 19:41:36.289] LOG  : General     , 1654396896289> 1,371,184> duplicate texture d_generic_1_155 ignore ID=525467, use ID=356155.
+[04-06-22 19:41:36.290] LOG  : General     , 1654396896290> 1,371,185> duplicate texture d_generic_1_156 ignore ID=525468, use ID=356156.
+[04-06-22 19:41:36.294] LOG  : General     , 1654396896294> 1,371,189> duplicate texture d_generic_1_157 ignore ID=525469, use ID=356157.
+[04-06-22 19:41:36.297] LOG  : General     , 1654396896297> 1,371,192> duplicate texture d_generic_1_158 ignore ID=525470, use ID=356158.
+[04-06-22 19:41:36.298] LOG  : General     , 1654396896298> 1,371,193> duplicate texture d_generic_1_159 ignore ID=525471, use ID=356159.
+[04-06-22 19:41:36.298] LOG  : General     , 1654396896298> 1,371,193> duplicate texture d_plants_1_0 ignore ID=525824, use ID=357000.
+[04-06-22 19:41:36.299] LOG  : General     , 1654396896299> 1,371,194> duplicate texture d_plants_1_1 ignore ID=525825, use ID=357001.
+[04-06-22 19:41:36.299] LOG  : General     , 1654396896299> 1,371,194> duplicate texture d_plants_1_2 ignore ID=525826, use ID=357002.
+[04-06-22 19:41:36.300] LOG  : General     , 1654396896300> 1,371,195> duplicate texture d_plants_1_3 ignore ID=525827, use ID=357003.
+[04-06-22 19:41:36.300] LOG  : General     , 1654396896300> 1,371,195> duplicate texture d_plants_1_4 ignore ID=525828, use ID=357004.
+[04-06-22 19:41:36.300] LOG  : General     , 1654396896300> 1,371,195> duplicate texture d_plants_1_5 ignore ID=525829, use ID=357005.
+[04-06-22 19:41:36.301] LOG  : General     , 1654396896301> 1,371,196> duplicate texture d_plants_1_6 ignore ID=525830, use ID=357006.
+[04-06-22 19:41:36.301] LOG  : General     , 1654396896301> 1,371,196> duplicate texture d_plants_1_7 ignore ID=525831, use ID=357007.
+[04-06-22 19:41:36.302] LOG  : General     , 1654396896302> 1,371,197> duplicate texture d_plants_1_8 ignore ID=525832, use ID=357008.
+[04-06-22 19:41:36.302] LOG  : General     , 1654396896302> 1,371,197> duplicate texture d_plants_1_9 ignore ID=525833, use ID=357009.
+[04-06-22 19:41:36.303] LOG  : General     , 1654396896303> 1,371,198> duplicate texture d_plants_1_10 ignore ID=525834, use ID=357010.
+[04-06-22 19:41:36.303] LOG  : General     , 1654396896303> 1,371,198> duplicate texture d_plants_1_11 ignore ID=525835, use ID=357011.
+[04-06-22 19:41:36.303] LOG  : General     , 1654396896303> 1,371,198> duplicate texture d_plants_1_12 ignore ID=525836, use ID=357012.
+[04-06-22 19:41:36.304] LOG  : General     , 1654396896304> 1,371,199> duplicate texture d_plants_1_13 ignore ID=525837, use ID=357013.
+[04-06-22 19:41:36.304] LOG  : General     , 1654396896304> 1,371,199> duplicate texture d_plants_1_14 ignore ID=525838, use ID=357014.
+[04-06-22 19:41:36.305] LOG  : General     , 1654396896305> 1,371,200> duplicate texture d_plants_1_15 ignore ID=525839, use ID=357015.
+[04-06-22 19:41:36.305] LOG  : General     , 1654396896305> 1,371,200> duplicate texture d_plants_1_16 ignore ID=525840, use ID=357016.
+[04-06-22 19:41:36.305] LOG  : General     , 1654396896305> 1,371,200> duplicate texture d_plants_1_17 ignore ID=525841, use ID=357017.
+[04-06-22 19:41:36.306] LOG  : General     , 1654396896306> 1,371,201> duplicate texture d_plants_1_18 ignore ID=525842, use ID=357018.
+[04-06-22 19:41:36.306] LOG  : General     , 1654396896306> 1,371,201> duplicate texture d_plants_1_19 ignore ID=525843, use ID=357019.
+[04-06-22 19:41:36.307] LOG  : General     , 1654396896307> 1,371,202> duplicate texture d_plants_1_20 ignore ID=525844, use ID=357020.
+[04-06-22 19:41:36.307] LOG  : General     , 1654396896307> 1,371,202> duplicate texture d_plants_1_21 ignore ID=525845, use ID=357021.
+[04-06-22 19:41:36.307] LOG  : General     , 1654396896307> 1,371,202> duplicate texture d_plants_1_22 ignore ID=525846, use ID=357022.
+[04-06-22 19:41:36.308] LOG  : General     , 1654396896308> 1,371,203> duplicate texture d_plants_1_23 ignore ID=525847, use ID=357023.
+[04-06-22 19:41:36.308] LOG  : General     , 1654396896308> 1,371,203> duplicate texture d_plants_1_24 ignore ID=525848, use ID=357024.
+[04-06-22 19:41:36.308] LOG  : General     , 1654396896308> 1,371,203> duplicate texture d_plants_1_25 ignore ID=525849, use ID=357025.
+[04-06-22 19:41:36.309] LOG  : General     , 1654396896309> 1,371,204> duplicate texture d_plants_1_26 ignore ID=525850, use ID=357026.
+[04-06-22 19:41:36.309] LOG  : General     , 1654396896309> 1,371,204> duplicate texture d_plants_1_27 ignore ID=525851, use ID=357027.
+[04-06-22 19:41:36.309] LOG  : General     , 1654396896309> 1,371,204> duplicate texture d_plants_1_28 ignore ID=525852, use ID=357028.
+[04-06-22 19:41:36.310] LOG  : General     , 1654396896310> 1,371,205> duplicate texture d_plants_1_29 ignore ID=525853, use ID=357029.
+[04-06-22 19:41:36.310] LOG  : General     , 1654396896310> 1,371,205> duplicate texture d_plants_1_30 ignore ID=525854, use ID=357030.
+[04-06-22 19:41:36.310] LOG  : General     , 1654396896310> 1,371,205> duplicate texture d_plants_1_31 ignore ID=525855, use ID=357031.
+[04-06-22 19:41:36.311] LOG  : General     , 1654396896311> 1,371,206> duplicate texture d_plants_1_32 ignore ID=525856, use ID=357032.
+[04-06-22 19:41:36.311] LOG  : General     , 1654396896311> 1,371,206> duplicate texture d_plants_1_33 ignore ID=525857, use ID=357033.
+[04-06-22 19:41:36.312] LOG  : General     , 1654396896312> 1,371,207> duplicate texture d_plants_1_34 ignore ID=525858, use ID=357034.
+[04-06-22 19:41:36.312] LOG  : General     , 1654396896312> 1,371,207> duplicate texture d_plants_1_35 ignore ID=525859, use ID=357035.
+[04-06-22 19:41:36.313] LOG  : General     , 1654396896312> 1,371,207> duplicate texture d_plants_1_36 ignore ID=525860, use ID=357036.
+[04-06-22 19:41:36.313] LOG  : General     , 1654396896313> 1,371,208> duplicate texture d_plants_1_37 ignore ID=525861, use ID=357037.
+[04-06-22 19:41:36.313] LOG  : General     , 1654396896313> 1,371,208> duplicate texture d_plants_1_38 ignore ID=525862, use ID=357038.
+[04-06-22 19:41:36.314] LOG  : General     , 1654396896314> 1,371,208> duplicate texture d_plants_1_39 ignore ID=525863, use ID=357039.
+[04-06-22 19:41:36.314] LOG  : General     , 1654396896314> 1,371,209> duplicate texture d_plants_1_40 ignore ID=525864, use ID=357040.
+[04-06-22 19:41:36.314] LOG  : General     , 1654396896314> 1,371,209> duplicate texture d_plants_1_41 ignore ID=525865, use ID=357041.
+[04-06-22 19:41:36.315] LOG  : General     , 1654396896315> 1,371,210> duplicate texture d_plants_1_42 ignore ID=525866, use ID=357042.
+[04-06-22 19:41:36.315] LOG  : General     , 1654396896315> 1,371,210> duplicate texture d_plants_1_43 ignore ID=525867, use ID=357043.
+[04-06-22 19:41:36.316] LOG  : General     , 1654396896316> 1,371,211> duplicate texture d_plants_1_44 ignore ID=525868, use ID=357044.
+[04-06-22 19:41:36.316] LOG  : General     , 1654396896316> 1,371,211> duplicate texture d_plants_1_45 ignore ID=525869, use ID=357045.
+[04-06-22 19:41:36.317] LOG  : General     , 1654396896317> 1,371,211> duplicate texture d_plants_1_46 ignore ID=525870, use ID=357046.
+[04-06-22 19:41:36.317] LOG  : General     , 1654396896317> 1,371,212> duplicate texture d_plants_1_47 ignore ID=525871, use ID=357047.
+[04-06-22 19:41:36.318] LOG  : General     , 1654396896318> 1,371,213> duplicate texture d_plants_1_48 ignore ID=525872, use ID=357048.
+[04-06-22 19:41:36.318] LOG  : General     , 1654396896318> 1,371,213> duplicate texture d_plants_1_49 ignore ID=525873, use ID=357049.
+[04-06-22 19:41:36.319] LOG  : General     , 1654396896319> 1,371,214> duplicate texture d_plants_1_50 ignore ID=525874, use ID=357050.
+[04-06-22 19:41:36.320] LOG  : General     , 1654396896320> 1,371,215> duplicate texture d_plants_1_51 ignore ID=525875, use ID=357051.
+[04-06-22 19:41:36.320] LOG  : General     , 1654396896320> 1,371,216> duplicate texture d_plants_1_52 ignore ID=525876, use ID=357052.
+[04-06-22 19:41:36.321] LOG  : General     , 1654396896321> 1,371,216> duplicate texture d_plants_1_53 ignore ID=525877, use ID=357053.
+[04-06-22 19:41:36.321] LOG  : General     , 1654396896321> 1,371,217> duplicate texture d_plants_1_54 ignore ID=525878, use ID=357054.
+[04-06-22 19:41:36.322] LOG  : General     , 1654396896322> 1,371,218> duplicate texture d_plants_1_55 ignore ID=525879, use ID=357055.
+[04-06-22 19:41:36.323] LOG  : General     , 1654396896323> 1,371,218> duplicate texture d_plants_1_56 ignore ID=525880, use ID=357056.
+[04-06-22 19:41:36.324] LOG  : General     , 1654396896323> 1,371,219> duplicate texture d_plants_1_57 ignore ID=525881, use ID=357057.
+[04-06-22 19:41:36.324] LOG  : General     , 1654396896324> 1,371,219> duplicate texture d_plants_1_58 ignore ID=525882, use ID=357058.
+[04-06-22 19:41:36.327] LOG  : General     , 1654396896327> 1,371,222> duplicate texture d_plants_1_59 ignore ID=525883, use ID=357059.
+[04-06-22 19:41:36.328] LOG  : General     , 1654396896328> 1,371,223> duplicate texture d_plants_1_60 ignore ID=525884, use ID=357060.
+[04-06-22 19:41:36.329] LOG  : General     , 1654396896329> 1,371,224> duplicate texture d_plants_1_61 ignore ID=525885, use ID=357061.
+[04-06-22 19:41:36.329] LOG  : General     , 1654396896329> 1,371,224> duplicate texture d_plants_1_62 ignore ID=525886, use ID=357062.
+[04-06-22 19:41:36.331] LOG  : General     , 1654396896331> 1,371,226> duplicate texture d_plants_1_63 ignore ID=525887, use ID=357063.
+[04-06-22 19:41:36.332] LOG  : General     , 1654396896331> 1,371,227> duplicate texture d_streetcracks_1_0 ignore ID=526336, use ID=358000.
+[04-06-22 19:41:36.332] LOG  : General     , 1654396896332> 1,371,227> duplicate texture d_streetcracks_1_1 ignore ID=526337, use ID=358001.
+[04-06-22 19:41:36.332] LOG  : General     , 1654396896332> 1,371,228> duplicate texture d_streetcracks_1_2 ignore ID=526338, use ID=358002.
+[04-06-22 19:41:36.333] LOG  : General     , 1654396896333> 1,371,228> duplicate texture d_streetcracks_1_3 ignore ID=526339, use ID=358003.
+[04-06-22 19:41:36.333] LOG  : General     , 1654396896333> 1,371,229> duplicate texture d_streetcracks_1_4 ignore ID=526340, use ID=358004.
+[04-06-22 19:41:36.334] LOG  : General     , 1654396896334> 1,371,229> duplicate texture d_streetcracks_1_5 ignore ID=526341, use ID=358005.
+[04-06-22 19:41:36.334] LOG  : General     , 1654396896334> 1,371,229> duplicate texture d_streetcracks_1_6 ignore ID=526342, use ID=358006.
+[04-06-22 19:41:36.334] LOG  : General     , 1654396896334> 1,371,229> duplicate texture d_streetcracks_1_7 ignore ID=526343, use ID=358007.
+[04-06-22 19:41:36.335] LOG  : General     , 1654396896335> 1,371,230> duplicate texture d_streetcracks_1_8 ignore ID=526344, use ID=358008.
+[04-06-22 19:41:36.335] LOG  : General     , 1654396896335> 1,371,230> duplicate texture d_streetcracks_1_9 ignore ID=526345, use ID=358009.
+[04-06-22 19:41:36.335] LOG  : General     , 1654396896335> 1,371,231> duplicate texture d_streetcracks_1_10 ignore ID=526346, use ID=358010.
+[04-06-22 19:41:36.336] LOG  : General     , 1654396896336> 1,371,231> duplicate texture d_streetcracks_1_11 ignore ID=526347, use ID=358011.
+[04-06-22 19:41:36.336] LOG  : General     , 1654396896336> 1,371,231> duplicate texture d_streetcracks_1_12 ignore ID=526348, use ID=358012.
+[04-06-22 19:41:36.336] LOG  : General     , 1654396896336> 1,371,232> duplicate texture d_streetcracks_1_13 ignore ID=526349, use ID=358013.
+[04-06-22 19:41:36.337] LOG  : General     , 1654396896337> 1,371,232> duplicate texture d_streetcracks_1_14 ignore ID=526350, use ID=358014.
+[04-06-22 19:41:36.337] LOG  : General     , 1654396896337> 1,371,232> duplicate texture d_streetcracks_1_15 ignore ID=526351, use ID=358015.
+[04-06-22 19:41:36.337] LOG  : General     , 1654396896337> 1,371,233> duplicate texture d_streetcracks_1_16 ignore ID=526352, use ID=358016.
+[04-06-22 19:41:36.338] LOG  : General     , 1654396896338> 1,371,233> duplicate texture d_streetcracks_1_17 ignore ID=526353, use ID=358017.
+[04-06-22 19:41:36.338] LOG  : General     , 1654396896338> 1,371,233> duplicate texture d_streetcracks_1_18 ignore ID=526354, use ID=358018.
+[04-06-22 19:41:36.341] LOG  : General     , 1654396896341> 1,371,236> duplicate texture d_streetcracks_1_19 ignore ID=526355, use ID=358019.
+[04-06-22 19:41:36.341] LOG  : General     , 1654396896341> 1,371,236> duplicate texture d_streetcracks_1_20 ignore ID=526356, use ID=358020.
+[04-06-22 19:41:36.342] LOG  : General     , 1654396896342> 1,371,237> duplicate texture d_streetcracks_1_21 ignore ID=526357, use ID=358021.
+[04-06-22 19:41:36.342] LOG  : General     , 1654396896342> 1,371,237> duplicate texture d_streetcracks_1_22 ignore ID=526358, use ID=358022.
+[04-06-22 19:41:36.342] LOG  : General     , 1654396896342> 1,371,237> duplicate texture d_streetcracks_1_23 ignore ID=526359, use ID=358023.
+[04-06-22 19:41:36.343] LOG  : General     , 1654396896343> 1,371,238> duplicate texture d_streetcracks_1_24 ignore ID=526360, use ID=358024.
+[04-06-22 19:41:36.343] LOG  : General     , 1654396896343> 1,371,238> duplicate texture d_streetcracks_1_25 ignore ID=526361, use ID=358025.
+[04-06-22 19:41:36.343] LOG  : General     , 1654396896343> 1,371,238> duplicate texture d_streetcracks_1_26 ignore ID=526362, use ID=358026.
+[04-06-22 19:41:36.344] LOG  : General     , 1654396896344> 1,371,239> duplicate texture d_streetcracks_1_27 ignore ID=526363, use ID=358027.
+[04-06-22 19:41:36.344] LOG  : General     , 1654396896344> 1,371,239> duplicate texture d_streetcracks_1_28 ignore ID=526364, use ID=358028.
+[04-06-22 19:41:36.345] LOG  : General     , 1654396896344> 1,371,239> duplicate texture d_streetcracks_1_29 ignore ID=526365, use ID=358029.
+[04-06-22 19:41:36.345] LOG  : General     , 1654396896345> 1,371,240> duplicate texture d_streetcracks_1_30 ignore ID=526366, use ID=358030.
+[04-06-22 19:41:36.345] LOG  : General     , 1654396896345> 1,371,240> duplicate texture d_streetcracks_1_31 ignore ID=526367, use ID=358031.
+[04-06-22 19:41:36.346] LOG  : General     , 1654396896346> 1,371,241> duplicate texture d_streetcracks_1_32 ignore ID=526368, use ID=358032.
+[04-06-22 19:41:36.346] LOG  : General     , 1654396896346> 1,371,241> duplicate texture d_streetcracks_1_33 ignore ID=526369, use ID=358033.
+[04-06-22 19:41:36.346] LOG  : General     , 1654396896346> 1,371,241> duplicate texture d_streetcracks_1_34 ignore ID=526370, use ID=358034.
+[04-06-22 19:41:36.347] LOG  : General     , 1654396896347> 1,371,242> duplicate texture d_streetcracks_1_35 ignore ID=526371, use ID=358035.
+[04-06-22 19:41:36.347] LOG  : General     , 1654396896347> 1,371,242> duplicate texture d_streetcracks_1_36 ignore ID=526372, use ID=358036.
+[04-06-22 19:41:36.348] LOG  : General     , 1654396896348> 1,371,243> duplicate texture d_streetcracks_1_37 ignore ID=526373, use ID=358037.
+[04-06-22 19:41:36.348] LOG  : General     , 1654396896348> 1,371,243> duplicate texture d_streetcracks_1_38 ignore ID=526374, use ID=358038.
+[04-06-22 19:41:36.348] LOG  : General     , 1654396896348> 1,371,243> duplicate texture d_streetcracks_1_39 ignore ID=526375, use ID=358039.
+[04-06-22 19:41:36.349] LOG  : General     , 1654396896349> 1,371,244> duplicate texture d_streetcracks_1_40 ignore ID=526376, use ID=358040.
+[04-06-22 19:41:36.349] LOG  : General     , 1654396896349> 1,371,244> duplicate texture d_streetcracks_1_41 ignore ID=526377, use ID=358041.
+[04-06-22 19:41:36.350] LOG  : General     , 1654396896350> 1,371,245> duplicate texture d_streetcracks_1_42 ignore ID=526378, use ID=358042.
+[04-06-22 19:41:36.350] LOG  : General     , 1654396896350> 1,371,245> duplicate texture d_streetcracks_1_43 ignore ID=526379, use ID=358043.
+[04-06-22 19:41:36.350] LOG  : General     , 1654396896350> 1,371,245> duplicate texture d_streetcracks_1_44 ignore ID=526380, use ID=358044.
+[04-06-22 19:41:36.351] LOG  : General     , 1654396896351> 1,371,246> duplicate texture d_streetcracks_1_45 ignore ID=526381, use ID=358045.
+[04-06-22 19:41:36.351] LOG  : General     , 1654396896351> 1,371,246> duplicate texture d_streetcracks_1_46 ignore ID=526382, use ID=358046.
+[04-06-22 19:41:36.352] LOG  : General     , 1654396896352> 1,371,246> duplicate texture d_streetcracks_1_47 ignore ID=526383, use ID=358047.
+[04-06-22 19:41:36.352] LOG  : General     , 1654396896352> 1,371,247> duplicate texture d_streetcracks_1_48 ignore ID=526384, use ID=358048.
+[04-06-22 19:41:36.353] LOG  : General     , 1654396896353> 1,371,248> duplicate texture d_streetcracks_1_49 ignore ID=526385, use ID=358049.
+[04-06-22 19:41:36.354] LOG  : General     , 1654396896354> 1,371,249> duplicate texture d_streetcracks_1_50 ignore ID=526386, use ID=358050.
+[04-06-22 19:41:36.354] LOG  : General     , 1654396896354> 1,371,249> duplicate texture d_streetcracks_1_51 ignore ID=526387, use ID=358051.
+[04-06-22 19:41:36.355] LOG  : General     , 1654396896355> 1,371,250> duplicate texture d_streetcracks_1_52 ignore ID=526388, use ID=358052.
+[04-06-22 19:41:36.356] LOG  : General     , 1654396896356> 1,371,251> duplicate texture d_streetcracks_1_53 ignore ID=526389, use ID=358053.
+[04-06-22 19:41:36.358] LOG  : General     , 1654396896358> 1,371,253> duplicate texture d_streetcracks_1_54 ignore ID=526390, use ID=358054.
+[04-06-22 19:41:36.359] LOG  : General     , 1654396896359> 1,371,254> duplicate texture d_streetcracks_1_55 ignore ID=526391, use ID=358055.
+[04-06-22 19:41:36.360] LOG  : General     , 1654396896360> 1,371,255> duplicate texture d_streetcracks_1_56 ignore ID=526392, use ID=358056.
+[04-06-22 19:41:36.362] LOG  : General     , 1654396896362> 1,371,258> duplicate texture d_streetcracks_1_57 ignore ID=526393, use ID=358057.
+[04-06-22 19:41:36.363] LOG  : General     , 1654396896363> 1,371,259> duplicate texture d_streetcracks_1_58 ignore ID=526394, use ID=358058.
+[04-06-22 19:41:36.365] LOG  : General     , 1654396896363> 1,371,259> duplicate texture d_streetcracks_1_59 ignore ID=526395, use ID=358059.
+[04-06-22 19:41:36.365] LOG  : General     , 1654396896365> 1,371,260> duplicate texture d_streetcracks_1_60 ignore ID=526396, use ID=358060.
+[04-06-22 19:41:36.365] LOG  : General     , 1654396896365> 1,371,260> duplicate texture d_streetcracks_1_61 ignore ID=526397, use ID=358061.
+[04-06-22 19:41:36.365] LOG  : General     , 1654396896365> 1,371,261> duplicate texture d_streetcracks_1_62 ignore ID=526398, use ID=358062.
+[04-06-22 19:41:36.365] LOG  : General     , 1654396896365> 1,371,261> duplicate texture d_streetcracks_1_63 ignore ID=526399, use ID=358063.
+[04-06-22 19:41:36.366] LOG  : General     , 1654396896366> 1,371,261> duplicate texture d_streetcracks_1_64 ignore ID=526400, use ID=358064.
+[04-06-22 19:41:36.366] LOG  : General     , 1654396896366> 1,371,262> duplicate texture d_streetcracks_1_65 ignore ID=526401, use ID=358065.
+[04-06-22 19:41:36.367] LOG  : General     , 1654396896366> 1,371,262> duplicate texture d_streetcracks_1_66 ignore ID=526402, use ID=358066.
+[04-06-22 19:41:36.367] LOG  : General     , 1654396896367> 1,371,262> duplicate texture d_streetcracks_1_67 ignore ID=526403, use ID=358067.
+[04-06-22 19:41:36.367] LOG  : General     , 1654396896367> 1,371,263> duplicate texture d_streetcracks_1_68 ignore ID=526404, use ID=358068.
+[04-06-22 19:41:36.370] LOG  : General     , 1654396896370> 1,371,266> duplicate texture d_streetcracks_1_69 ignore ID=526405, use ID=358069.
+[04-06-22 19:41:36.371] LOG  : General     , 1654396896371> 1,371,266> duplicate texture d_streetcracks_1_70 ignore ID=526406, use ID=358070.
+[04-06-22 19:41:36.371] LOG  : General     , 1654396896371> 1,371,267> duplicate texture d_streetcracks_1_71 ignore ID=526407, use ID=358071.
+[04-06-22 19:41:36.372] LOG  : General     , 1654396896372> 1,371,267> duplicate texture d_streetcracks_1_72 ignore ID=526408, use ID=358072.
+[04-06-22 19:41:36.372] LOG  : General     , 1654396896372> 1,371,267> duplicate texture d_streetcracks_1_73 ignore ID=526409, use ID=358073.
+[04-06-22 19:41:36.372] LOG  : General     , 1654396896372> 1,371,268> duplicate texture d_streetcracks_1_74 ignore ID=526410, use ID=358074.
+[04-06-22 19:41:36.373] LOG  : General     , 1654396896373> 1,371,268> duplicate texture d_streetcracks_1_75 ignore ID=526411, use ID=358075.
+[04-06-22 19:41:36.373] LOG  : General     , 1654396896373> 1,371,269> duplicate texture d_streetcracks_1_76 ignore ID=526412, use ID=358076.
+[04-06-22 19:41:36.374] LOG  : General     , 1654396896374> 1,371,269> duplicate texture d_streetcracks_1_77 ignore ID=526413, use ID=358077.
+[04-06-22 19:41:36.374] LOG  : General     , 1654396896374> 1,371,269> duplicate texture d_streetcracks_1_78 ignore ID=526414, use ID=358078.
+[04-06-22 19:41:36.375] LOG  : General     , 1654396896375> 1,371,270> duplicate texture d_streetcracks_1_79 ignore ID=526415, use ID=358079.
+[04-06-22 19:41:36.375] LOG  : General     , 1654396896375> 1,371,270> duplicate texture d_streetcracks_1_80 ignore ID=526416, use ID=358080.
+[04-06-22 19:41:36.376] LOG  : General     , 1654396896376> 1,371,271> duplicate texture d_streetcracks_1_81 ignore ID=526417, use ID=358081.
+[04-06-22 19:41:36.376] LOG  : General     , 1654396896376> 1,371,271> duplicate texture d_streetcracks_1_82 ignore ID=526418, use ID=358082.
+[04-06-22 19:41:36.378] LOG  : General     , 1654396896378> 1,371,273> duplicate texture d_streetcracks_1_83 ignore ID=526419, use ID=358083.
+[04-06-22 19:41:36.378] LOG  : General     , 1654396896378> 1,371,273> duplicate texture d_streetcracks_1_84 ignore ID=526420, use ID=358084.
+[04-06-22 19:41:36.379] LOG  : General     , 1654396896379> 1,371,274> duplicate texture d_streetcracks_1_85 ignore ID=526421, use ID=358085.
+[04-06-22 19:41:36.379] LOG  : General     , 1654396896379> 1,371,274> duplicate texture d_streetcracks_1_86 ignore ID=526422, use ID=358086.
+[04-06-22 19:41:36.380] LOG  : General     , 1654396896380> 1,371,275> duplicate texture d_streetcracks_1_87 ignore ID=526423, use ID=358087.
+[04-06-22 19:41:36.380] LOG  : General     , 1654396896380> 1,371,275> duplicate texture d_streetcracks_1_88 ignore ID=526424, use ID=358088.
+[04-06-22 19:41:36.381] LOG  : General     , 1654396896381> 1,371,276> duplicate texture d_streetcracks_1_89 ignore ID=526425, use ID=358089.
+[04-06-22 19:41:36.381] LOG  : General     , 1654396896381> 1,371,276> duplicate texture d_streetcracks_1_90 ignore ID=526426, use ID=358090.
+[04-06-22 19:41:36.382] LOG  : General     , 1654396896382> 1,371,277> duplicate texture d_streetcracks_1_91 ignore ID=526427, use ID=358091.
+[04-06-22 19:41:36.382] LOG  : General     , 1654396896382> 1,371,277> duplicate texture d_streetcracks_1_92 ignore ID=526428, use ID=358092.
+[04-06-22 19:41:36.383] LOG  : General     , 1654396896383> 1,371,278> duplicate texture d_streetcracks_1_93 ignore ID=526429, use ID=358093.
+[04-06-22 19:41:36.385] LOG  : General     , 1654396896385> 1,371,280> duplicate texture d_streetcracks_1_94 ignore ID=526430, use ID=358094.
+[04-06-22 19:41:36.390] LOG  : General     , 1654396896390> 1,371,285> duplicate texture d_streetcracks_1_95 ignore ID=526431, use ID=358095.
+[04-06-22 19:41:36.395] LOG  : General     , 1654396896395> 1,371,290> duplicate texture d_streetcracks_1_96 ignore ID=526432, use ID=358096.
+[04-06-22 19:41:36.396] LOG  : General     , 1654396896396> 1,371,291> duplicate texture d_streetcracks_1_97 ignore ID=526433, use ID=358097.
+[04-06-22 19:41:36.397] LOG  : General     , 1654396896397> 1,371,291> duplicate texture d_streetcracks_1_98 ignore ID=526434, use ID=358098.
+[04-06-22 19:41:36.397] LOG  : General     , 1654396896397> 1,371,292> duplicate texture d_streetcracks_1_99 ignore ID=526435, use ID=358099.
+[04-06-22 19:41:36.403] LOG  : General     , 1654396896403> 1,371,299> duplicate texture d_streetcracks_1_100 ignore ID=526436, use ID=358100.
+[04-06-22 19:41:36.404] LOG  : General     , 1654396896404> 1,371,299> duplicate texture d_streetcracks_1_101 ignore ID=526437, use ID=358101.
+[04-06-22 19:41:36.404] LOG  : General     , 1654396896404> 1,371,300> duplicate texture d_streetcracks_1_102 ignore ID=526438, use ID=358102.
+[04-06-22 19:41:36.404] LOG  : General     , 1654396896404> 1,371,300> duplicate texture d_streetcracks_1_103 ignore ID=526439, use ID=358103.
+[04-06-22 19:41:36.405] LOG  : General     , 1654396896405> 1,371,300> duplicate texture d_streetcracks_1_104 ignore ID=526440, use ID=358104.
+[04-06-22 19:41:36.405] LOG  : General     , 1654396896405> 1,371,301> duplicate texture d_streetcracks_1_105 ignore ID=526441, use ID=358105.
+[04-06-22 19:41:36.407] LOG  : General     , 1654396896407> 1,371,302> duplicate texture d_streetcracks_1_106 ignore ID=526442, use ID=358106.
+[04-06-22 19:41:36.413] LOG  : General     , 1654396896413> 1,371,308> duplicate texture d_streetcracks_1_107 ignore ID=526443, use ID=358107.
+[04-06-22 19:41:36.414] LOG  : General     , 1654396896414> 1,371,309> duplicate texture d_streetcracks_1_108 ignore ID=526444, use ID=358108.
+[04-06-22 19:41:36.415] LOG  : General     , 1654396896414> 1,371,310> duplicate texture d_streetcracks_1_109 ignore ID=526445, use ID=358109.
+[04-06-22 19:41:36.422] LOG  : General     , 1654396896422> 1,371,317> duplicate texture d_streetcracks_1_110 ignore ID=526446, use ID=358110.
+[04-06-22 19:41:36.430] LOG  : General     , 1654396896430> 1,371,325> duplicate texture d_streetcracks_1_111 ignore ID=526447, use ID=358111.
+[04-06-22 19:41:36.432] LOG  : General     , 1654396896432> 1,371,327> duplicate texture d_streetcracks_1_112 ignore ID=526448, use ID=358112.
+[04-06-22 19:41:36.433] LOG  : General     , 1654396896433> 1,371,328> duplicate texture d_streetcracks_1_113 ignore ID=526449, use ID=358113.
+[04-06-22 19:41:36.433] LOG  : General     , 1654396896433> 1,371,328> duplicate texture d_streetcracks_1_114 ignore ID=526450, use ID=358114.
+[04-06-22 19:41:36.434] LOG  : General     , 1654396896434> 1,371,329> duplicate texture d_streetcracks_1_115 ignore ID=526451, use ID=358115.
+[04-06-22 19:41:36.434] LOG  : General     , 1654396896434> 1,371,329> duplicate texture d_streetcracks_1_116 ignore ID=526452, use ID=358116.
+[04-06-22 19:41:36.435] LOG  : General     , 1654396896435> 1,371,330> duplicate texture d_streetcracks_1_117 ignore ID=526453, use ID=358117.
+[04-06-22 19:41:36.435] LOG  : General     , 1654396896435> 1,371,330> duplicate texture d_streetcracks_1_118 ignore ID=526454, use ID=358118.
+[04-06-22 19:41:36.435] LOG  : General     , 1654396896435> 1,371,330> duplicate texture d_streetcracks_1_119 ignore ID=526455, use ID=358119.
+[04-06-22 19:41:36.436] LOG  : General     , 1654396896436> 1,371,331> duplicate texture d_streetcracks_1_120 ignore ID=526456, use ID=358120.
+[04-06-22 19:41:36.437] LOG  : General     , 1654396896436> 1,371,331> duplicate texture d_streetcracks_1_121 ignore ID=526457, use ID=358121.
+[04-06-22 19:41:36.437] LOG  : General     , 1654396896437> 1,371,332> duplicate texture d_streetcracks_1_122 ignore ID=526458, use ID=358122.
+[04-06-22 19:41:36.438] LOG  : General     , 1654396896438> 1,371,333> duplicate texture d_streetcracks_1_123 ignore ID=526459, use ID=358123.
+[04-06-22 19:41:36.439] LOG  : General     , 1654396896439> 1,371,334> duplicate texture d_streetcracks_1_124 ignore ID=526460, use ID=358124.
+[04-06-22 19:41:36.443] LOG  : General     , 1654396896442> 1,371,337> duplicate texture d_streetcracks_1_125 ignore ID=526461, use ID=358125.
+[04-06-22 19:41:36.444] LOG  : General     , 1654396896444> 1,371,338> duplicate texture d_streetcracks_1_126 ignore ID=526462, use ID=358126.
+[04-06-22 19:41:36.444] LOG  : General     , 1654396896444> 1,371,339> duplicate texture d_streetcracks_1_127 ignore ID=526463, use ID=358127.
+[04-06-22 19:41:36.451] LOG  : General     , 1654396896450> 1,371,346> duplicate texture d_wallcracks_1_0 ignore ID=537088, use ID=360000.
+[04-06-22 19:41:36.455] LOG  : General     , 1654396896455> 1,371,350> duplicate texture d_wallcracks_1_1 ignore ID=537089, use ID=360001.
+[04-06-22 19:41:36.457] LOG  : General     , 1654396896457> 1,371,352> duplicate texture d_wallcracks_1_2 ignore ID=537090, use ID=360002.
+[04-06-22 19:41:36.463] LOG  : General     , 1654396896463> 1,371,358> duplicate texture d_wallcracks_1_3 ignore ID=537091, use ID=360003.
+[04-06-22 19:41:36.465] LOG  : General     , 1654396896465> 1,371,360> duplicate texture d_wallcracks_1_4 ignore ID=537092, use ID=360004.
+[04-06-22 19:41:36.468] LOG  : General     , 1654396896468> 1,371,363> duplicate texture d_wallcracks_1_5 ignore ID=537093, use ID=360005.
+[04-06-22 19:41:36.470] LOG  : General     , 1654396896470> 1,371,365> duplicate texture d_wallcracks_1_6 ignore ID=537094, use ID=360006.
+[04-06-22 19:41:36.470] LOG  : General     , 1654396896470> 1,371,365> duplicate texture d_wallcracks_1_7 ignore ID=537095, use ID=360007.
+[04-06-22 19:41:36.471] LOG  : General     , 1654396896471> 1,371,366> duplicate texture d_wallcracks_1_8 ignore ID=537096, use ID=360008.
+[04-06-22 19:41:36.471] LOG  : General     , 1654396896471> 1,371,366> duplicate texture d_wallcracks_1_9 ignore ID=537097, use ID=360009.
+[04-06-22 19:41:36.472] LOG  : General     , 1654396896472> 1,371,367> duplicate texture d_wallcracks_1_10 ignore ID=537098, use ID=360010.
+[04-06-22 19:41:36.472] LOG  : General     , 1654396896472> 1,371,367> duplicate texture d_wallcracks_1_11 ignore ID=537099, use ID=360011.
+[04-06-22 19:41:36.473] LOG  : General     , 1654396896473> 1,371,368> duplicate texture d_wallcracks_1_12 ignore ID=537100, use ID=360012.
+[04-06-22 19:41:36.473] LOG  : General     , 1654396896473> 1,371,368> duplicate texture d_wallcracks_1_13 ignore ID=537101, use ID=360013.
+[04-06-22 19:41:36.474] LOG  : General     , 1654396896474> 1,371,369> duplicate texture d_wallcracks_1_14 ignore ID=537102, use ID=360014.
+[04-06-22 19:41:36.474] LOG  : General     , 1654396896474> 1,371,369> duplicate texture d_wallcracks_1_15 ignore ID=537103, use ID=360015.
+[04-06-22 19:41:36.474] LOG  : General     , 1654396896474> 1,371,369> duplicate texture d_wallcracks_1_16 ignore ID=537104, use ID=360016.
+[04-06-22 19:41:36.475] LOG  : General     , 1654396896475> 1,371,370> duplicate texture d_wallcracks_1_17 ignore ID=537105, use ID=360017.
+[04-06-22 19:41:36.475] LOG  : General     , 1654396896475> 1,371,370> duplicate texture d_wallcracks_1_18 ignore ID=537106, use ID=360018.
+[04-06-22 19:41:36.476] LOG  : General     , 1654396896476> 1,371,371> duplicate texture d_wallcracks_1_19 ignore ID=537107, use ID=360019.
+[04-06-22 19:41:36.476] LOG  : General     , 1654396896476> 1,371,371> duplicate texture d_wallcracks_1_20 ignore ID=537108, use ID=360020.
+[04-06-22 19:41:36.477] LOG  : General     , 1654396896477> 1,371,372> duplicate texture d_wallcracks_1_21 ignore ID=537109, use ID=360021.
+[04-06-22 19:41:36.478] LOG  : General     , 1654396896478> 1,371,373> duplicate texture d_wallcracks_1_22 ignore ID=537110, use ID=360022.
+[04-06-22 19:41:36.482] LOG  : General     , 1654396896482> 1,371,377> duplicate texture d_wallcracks_1_23 ignore ID=537111, use ID=360023.
+[04-06-22 19:41:36.484] LOG  : General     , 1654396896484> 1,371,379> duplicate texture d_wallcracks_1_24 ignore ID=537112, use ID=360024.
+[04-06-22 19:41:36.485] LOG  : General     , 1654396896485> 1,371,380> duplicate texture d_wallcracks_1_25 ignore ID=537113, use ID=360025.
+[04-06-22 19:41:36.486] LOG  : General     , 1654396896486> 1,371,380> duplicate texture d_wallcracks_1_26 ignore ID=537114, use ID=360026.
+[04-06-22 19:41:36.501] LOG  : General     , 1654396896501> 1,371,396> duplicate texture d_wallcracks_1_27 ignore ID=537115, use ID=360027.
+[04-06-22 19:41:36.501] LOG  : General     , 1654396896501> 1,371,397> duplicate texture d_wallcracks_1_28 ignore ID=537116, use ID=360028.
+[04-06-22 19:41:36.502] LOG  : General     , 1654396896502> 1,371,397> duplicate texture d_wallcracks_1_29 ignore ID=537117, use ID=360029.
+[04-06-22 19:41:36.502] LOG  : General     , 1654396896502> 1,371,398> duplicate texture d_wallcracks_1_30 ignore ID=537118, use ID=360030.
+[04-06-22 19:41:36.503] LOG  : General     , 1654396896503> 1,371,398> duplicate texture d_wallcracks_1_31 ignore ID=537119, use ID=360031.
+[04-06-22 19:41:36.503] LOG  : General     , 1654396896503> 1,371,398> duplicate texture d_wallcracks_1_32 ignore ID=537120, use ID=360032.
+[04-06-22 19:41:36.504] LOG  : General     , 1654396896504> 1,371,399> duplicate texture d_wallcracks_1_33 ignore ID=537121, use ID=360033.
+[04-06-22 19:41:36.504] LOG  : General     , 1654396896504> 1,371,399> duplicate texture d_wallcracks_1_34 ignore ID=537122, use ID=360034.
+[04-06-22 19:41:36.505] LOG  : General     , 1654396896504> 1,371,400> duplicate texture d_wallcracks_1_35 ignore ID=537123, use ID=360035.
+[04-06-22 19:41:36.505] LOG  : General     , 1654396896505> 1,371,400> duplicate texture d_wallcracks_1_36 ignore ID=537124, use ID=360036.
+[04-06-22 19:41:36.505] LOG  : General     , 1654396896505> 1,371,401> duplicate texture d_wallcracks_1_37 ignore ID=537125, use ID=360037.
+[04-06-22 19:41:36.506] LOG  : General     , 1654396896506> 1,371,401> duplicate texture d_wallcracks_1_38 ignore ID=537126, use ID=360038.
+[04-06-22 19:41:36.507] LOG  : General     , 1654396896506> 1,371,402> duplicate texture d_wallcracks_1_39 ignore ID=537127, use ID=360039.
+[04-06-22 19:41:36.507] LOG  : General     , 1654396896507> 1,371,402> duplicate texture d_wallcracks_1_40 ignore ID=537128, use ID=360040.
+[04-06-22 19:41:36.508] LOG  : General     , 1654396896507> 1,371,403> duplicate texture d_wallcracks_1_41 ignore ID=537129, use ID=360041.
+[04-06-22 19:41:36.509] LOG  : General     , 1654396896509> 1,371,404> duplicate texture d_wallcracks_1_42 ignore ID=537130, use ID=360042.
+[04-06-22 19:41:36.510] LOG  : General     , 1654396896510> 1,371,405> duplicate texture d_wallcracks_1_43 ignore ID=537131, use ID=360043.
+[04-06-22 19:41:36.510] LOG  : General     , 1654396896510> 1,371,405> duplicate texture d_wallcracks_1_44 ignore ID=537132, use ID=360044.
+[04-06-22 19:41:36.511] LOG  : General     , 1654396896511> 1,371,406> duplicate texture d_wallcracks_1_45 ignore ID=537133, use ID=360045.
+[04-06-22 19:41:36.511] LOG  : General     , 1654396896511> 1,371,406> duplicate texture d_wallcracks_1_46 ignore ID=537134, use ID=360046.
+[04-06-22 19:41:36.511] LOG  : General     , 1654396896511> 1,371,406> duplicate texture d_wallcracks_1_47 ignore ID=537135, use ID=360047.
+[04-06-22 19:41:36.512] LOG  : General     , 1654396896512> 1,371,407> duplicate texture d_wallcracks_1_48 ignore ID=537136, use ID=360048.
+[04-06-22 19:41:36.512] LOG  : General     , 1654396896512> 1,371,407> duplicate texture d_wallcracks_1_49 ignore ID=537137, use ID=360049.
+[04-06-22 19:41:36.513] LOG  : General     , 1654396896513> 1,371,408> duplicate texture d_wallcracks_1_50 ignore ID=537138, use ID=360050.
+[04-06-22 19:41:36.513] LOG  : General     , 1654396896513> 1,371,408> duplicate texture d_wallcracks_1_51 ignore ID=537139, use ID=360051.
+[04-06-22 19:41:36.514] LOG  : General     , 1654396896514> 1,371,409> duplicate texture d_wallcracks_1_52 ignore ID=537140, use ID=360052.
+[04-06-22 19:41:36.514] LOG  : General     , 1654396896514> 1,371,409> duplicate texture d_wallcracks_1_53 ignore ID=537141, use ID=360053.
+[04-06-22 19:41:36.515] LOG  : General     , 1654396896515> 1,371,410> duplicate texture d_wallcracks_1_54 ignore ID=537142, use ID=360054.
+[04-06-22 19:41:36.515] LOG  : General     , 1654396896515> 1,371,410> duplicate texture d_wallcracks_1_55 ignore ID=537143, use ID=360055.
+[04-06-22 19:41:36.515] LOG  : General     , 1654396896515> 1,371,410> duplicate texture d_wallcracks_1_56 ignore ID=537144, use ID=360056.
+[04-06-22 19:41:36.519] LOG  : General     , 1654396896519> 1,371,414> duplicate texture d_wallcracks_1_57 ignore ID=537145, use ID=360057.
+[04-06-22 19:41:36.520] LOG  : General     , 1654396896520> 1,371,415> duplicate texture d_wallcracks_1_58 ignore ID=537146, use ID=360058.
+[04-06-22 19:41:36.521] LOG  : General     , 1654396896521> 1,371,416> duplicate texture d_wallcracks_1_59 ignore ID=537147, use ID=360059.
+[04-06-22 19:41:36.522] LOG  : General     , 1654396896522> 1,371,417> duplicate texture d_wallcracks_1_60 ignore ID=537148, use ID=360060.
+[04-06-22 19:41:36.523] LOG  : General     , 1654396896523> 1,371,418> duplicate texture d_wallcracks_1_61 ignore ID=537149, use ID=360061.
+[04-06-22 19:41:36.524] LOG  : General     , 1654396896524> 1,371,418> duplicate texture d_wallcracks_1_62 ignore ID=537150, use ID=360062.
+[04-06-22 19:41:36.525] LOG  : General     , 1654396896525> 1,371,420> duplicate texture d_wallcracks_1_63 ignore ID=537151, use ID=360063.
+[04-06-22 19:41:36.525] LOG  : General     , 1654396896525> 1,371,420> duplicate texture d_wallcracks_1_64 ignore ID=537152, use ID=360064.
+[04-06-22 19:41:36.526] LOG  : General     , 1654396896526> 1,371,421> duplicate texture d_wallcracks_1_65 ignore ID=537153, use ID=360065.
+[04-06-22 19:41:36.526] LOG  : General     , 1654396896526> 1,371,421> duplicate texture d_wallcracks_1_66 ignore ID=537154, use ID=360066.
+[04-06-22 19:41:36.526] LOG  : General     , 1654396896526> 1,371,421> duplicate texture d_wallcracks_1_67 ignore ID=537155, use ID=360067.
+[04-06-22 19:41:36.527] LOG  : General     , 1654396896527> 1,371,421> duplicate texture d_wallcracks_1_68 ignore ID=537156, use ID=360068.
+[04-06-22 19:41:36.527] LOG  : General     , 1654396896527> 1,371,422> duplicate texture d_wallcracks_1_69 ignore ID=537157, use ID=360069.
+[04-06-22 19:41:36.528] LOG  : General     , 1654396896528> 1,371,422> duplicate texture d_wallcracks_1_70 ignore ID=537158, use ID=360070.
+[04-06-22 19:41:36.528] LOG  : General     , 1654396896528> 1,371,423> duplicate texture d_wallcracks_1_71 ignore ID=537159, use ID=360071.
+[04-06-22 19:41:36.528] LOG  : General     , 1654396896528> 1,371,424> MOVABLES: E face defined more than once for group: (Low Hedge) sheet = f_bushes_2.
+[04-06-22 19:41:36.529] LOG  : General     , 1654396896529> 1,371,424> MOVABLES: S face defined more than once for group: (Low Hedge) sheet = f_bushes_2.
+[04-06-22 19:41:36.529] LOG  : General     , 1654396896529> 1,371,425> MOVABLES: E face defined more than once for group: (Tall Hedge) sheet = f_bushes_2.
+[04-06-22 19:41:36.530] LOG  : General     , 1654396896530> 1,371,425> MOVABLES: S face defined more than once for group: (Tall Hedge) sheet = f_bushes_2.
+[04-06-22 19:41:36.530] LOG  : General     , 1654396896530> 1,371,426> MOVABLES: N face defined more than once for group: (Low Corner Hedge) sheet = f_bushes_2.
+[04-06-22 19:41:36.530] LOG  : General     , 1654396896530> 1,371,426> MOVABLES: S face defined more than once for group: (Low Corner Hedge) sheet = f_bushes_2.
+[04-06-22 19:41:36.531] LOG  : General     , 1654396896531> 1,371,426> MOVABLES: N face defined more than once for group: (Tall Corner Hedge) sheet = f_bushes_2.
+[04-06-22 19:41:36.532] LOG  : General     , 1654396896532> 1,371,427> MOVABLES: S face defined more than once for group: (Tall Corner Hedge) sheet = f_bushes_2.
+[04-06-22 19:41:36.533] LOG  : General     , 1654396896532> 1,371,428> tiledef: loading C:\pzserver\media\tiledefinitions_apcom.tiles.
+[04-06-22 19:41:36.534] LOG  : General     , 1654396896534> 1,371,430> tiledef: loading C:\pzserver\media\tiledefinitions_overlays.tiles.
+[04-06-22 19:41:36.544] LOG  : General     , 1654396896543> 1,371,438> tiledef: loading C:\pzserver\media\tiledefinitions_noiseworks.patch.tiles.
+[04-06-22 19:41:36.555] LOG  : General     , 1654396896555> 1,371,450> MOVABLES: E face defined more than once for group: (Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:36.556] LOG  : General     , 1654396896556> 1,371,451> MOVABLES: S face defined more than once for group: (Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:36.556] LOG  : General     , 1654396896556> 1,371,451> MOVABLES: E face defined more than once for group: (Left Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:36.557] LOG  : General     , 1654396896557> 1,371,452> MOVABLES: S face defined more than once for group: (Left Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:36.557] LOG  : General     , 1654396896557> 1,371,452> MOVABLES: E face defined more than once for group: (Right Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:36.558] LOG  : General     , 1654396896558> 1,371,453> MOVABLES: S face defined more than once for group: (Right Bar Wall Bar) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:36.558] LOG  : General     , 1654396896558> 1,371,453> MOVABLES: E face defined more than once for group: (Bar Tap Antique) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:36.559] LOG  : General     , 1654396896559> 1,371,454> MOVABLES: Object has too many faces defined for group: (Bar Counter) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:36.560] LOG  : General     , 1654396896560> 1,371,455> MOVABLES: Object has too many faces defined for group: (Bar Corner Counter) sheet = location_restaurant_bar_01.
+[04-06-22 19:41:36.573] LOG  : General     , 1654396896572> 1,371,468> MOVABLES: Object has only one face defined for group: (Streetname Sign) sheet = street_decoration_01.
+[04-06-22 19:41:36.573] LOG  : General     , 1654396896573> 1,371,469> MOVABLES: Not all members have a valid face defined for group: (Streetname Sign) sheet = street_decoration_01.
+[04-06-22 19:41:36.797] LOG  : General     , 1654396896796> 1,371,692> Saving Recorded Media:C:\Users\Administrator\Zomboid\Saves\Multiplayer\\servertest\recorded_media.bin.
+[04-06-22 19:41:36.978] LOG  : General     , 1654396896977> 1,371,872> scriptmanager = zombie.radio.scripting.RadioScriptManager@412ebe64, isNewGame = true.
+[04-06-22 19:41:36.979] LOG  : General     , 1654396896979> 1,371,874> name = Automated Emergency Broadcast System, freq = 92400, cat = Emergency, uuid = EMRG-711984.
+[04-06-22 19:41:37.044] LOG  : General     , 1654396897044> 1,371,940> WorldDictionary: Checking dictionary....
+[04-06-22 19:41:37.618] LOG  : General     , 1654396897618> 1,372,513> IsoMetaGrid.Create: finished loading in 2.022 seconds.
+[04-06-22 19:41:37.633] LOG  : General     , 1654396897633> 1,372,528> Calculate weather front strength = 0.4530563.
+[04-06-22 19:41:37.643] LOG  : General     , 1654396897643> 1,372,538> Calculate weather front strength = 0.8019311.
+[04-06-22 19:41:37.648] LOG  : General     , 1654396897648> 1,372,543> Calculate weather front strength = 0.5779334.
+[04-06-22 19:41:37.652] LOG  : General     , 1654396897652> 1,372,547> Calculate weather front strength = 0.83288777.
+[04-06-22 19:41:37.657] LOG  : General     , 1654396897657> 1,372,553> Calculate weather front strength = 0.39916483.
+[04-06-22 19:41:37.663] LOG  : General     , 1654396897663> 1,372,558> Calculate weather front strength = 0.54575175.
+[04-06-22 19:41:37.667] LOG  : Lua         , 1654396897667> 1,372,563> Loading: media/maps/Muldraugh, KY/objects.lua.
+[04-06-22 19:41:39.251] LOG  : General     , 1654396899250> 1,374,146> Max #ZONES on one chunk is 19.
+[04-06-22 19:41:39.605] LOG  : Network     , 1654396899605> 1,374,500> Initialising RakNet....
+[04-06-22 19:41:39.606] LOG  : General     , 1654396899606> 1,374,501> 1654396899606 znet: Java_zombie_core_raknet_RakNetPeerInterface_Init.
+[04-06-22 19:41:39.607] LOG  : General     , 1654396899607> 1,374,502> 1654396899607 znet: g_peer = 0xfc6f1390.
+[04-06-22 19:41:39.608] LOG  : General     , 1654396899608> 1,374,502> 1654396899608 znet: Java_zombie_core_raknet_RakNetPeerInterface_SetMaximumIncomingConnections.
+[04-06-22 19:41:39.610] LOG  : General     , 1654396899609> 1,374,504> 1654396899609 znet: Java_zombie_core_raknet_RakNetPeerInterface_SetServerPort.
+[04-06-22 19:41:39.611] LOG  : General     , 1654396899611> 1,374,506> 1654396899610 znet: Java_zombie_core_raknet_RakNetPeerInterface_SetIncomingPassword.
+[04-06-22 19:41:39.612] LOG  : General     , 1654396899612> 1,374,508> 1654396899612 znet: Java_zombie_core_raknet_RakNetPeerInterface_SetOccasionalPing.
+[04-06-22 19:41:39.613] LOG  : General     , 1654396899613> 1,374,508> 1654396899613 znet: Java_zombie_core_raknet_RakNetPeerInterface_Startup.
+[04-06-22 19:41:39.614] LOG  : General     , 1654396899614> 1,374,509> 1654396899614 znet: Zomboid Steam Server started, ports 8766 and 16261 must be open on the router.
+[04-06-22 19:41:39.629] LOG  : General     , 1654396899629> 1,374,524> 1654396899629 znet: OnRakPeerStartup.
+[04-06-22 19:41:39.641] LOG  : General     , 1654396899641> 1,374,536> 1654396899641 znet: RakNet-through-Steam mode activated.
+[04-06-22 19:41:39.642] LOG  : Network     , 1654396899642> 1,374,537> RakNet.Startup() return code: 0 (0 means success).
+[04-06-22 19:41:39.644] LOG  : General     , 1654396899644> 1,374,539> 1654396899644 znet: Java_zombie_core_raknet_RakVoice_RVInitServer.
+[04-06-22 19:41:39.645] LOG  : General     , 1654396899645> 1,374,540> 1654396899645 znet: g_peer = 0xfc6f1390.
+[04-06-22 19:41:39.647] LOG  : Network     , 1654396899647> 1,374,542> *** SERVER STARTED ****.
+[04-06-22 19:41:39.649] LOG  : Network     , 1654396899649> 1,374,544> *** Steam is enabled.
+[04-06-22 19:41:39.650] LOG  : Network     , 1654396899650> 1,374,545> server is listening on port 16261.
+[04-06-22 19:41:39.651] LOG  : General     , 1654396899651> 1,374,546> LuaNet: Initializing....
+[04-06-22 19:41:39.652] LOG  : General     , 1654396899652> 1,374,546> LuaNet: Registering server listener....
+[04-06-22 19:41:39.652] LOG  : General     , 1654396899652> 1,374,547> LuaNet: Initialization [DONE], triggering events for 'LuaNet.onInitAdd'..
+[04-06-22 19:41:39.653] LOG  : Network     , 1654396899653> 1,374,548> DISCORD: token not configured.
+[04-06-22 19:41:39.653] LOG  : Network     , 1654396899653> 1,374,548> *** DISCORD DISABLED ****.
+[04-06-22 19:41:39.654] LOG  : General     , 1654396899654> 1,374,549> ##########
+Server Steam ID 90159794702570503
+##########.
+[04-06-22 19:41:39.708] LOG  : Multiplayer , 1654396899708> 1,374,603> [MPStatistics] mem usage notification threshold=16,320,875,520.
+[04-06-22 19:41:41.288] LOG  : General     , 1654396901288> 1,376,183> 1654396901288 znet: OnPolicyResponse.
+[04-06-22 19:41:41.289] LOG  : General     , 1654396901289> 1,376,184> 1654396901289 znet: Zomboid Server is VAC Secure.
